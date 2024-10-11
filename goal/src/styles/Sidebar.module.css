@@ -1,0 +1,116 @@
+.sidebar {
+    width: 250px;
+    background-color: #212529;
+    padding: 15px;
+    /* Make it full height */
+    position: fixed;
+    /* Fix it to the side */
+    top: 8px;
+    border-radius: 10px;
+    bottom: 8px;
+    z-index: 3;
+    overflow: auto;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin: 15px 0;
+}
+
+.services {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sep {
+    width: 90%;
+    height: 1.5px;
+    background-color: white;
+}
+
+.sidebar h1 {
+    font-size: 24px;
+    color: white;
+    margin-left: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+    margin-top: 40px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.sidebar ul li a svg {
+    margin-right: 15px;
+}
+
+.sidebar ul li a:hover {
+    color: #007bff;
+}
+
+.closeMark {
+    position: fixed;
+    top: 15px;
+    left: 300px;
+    width: 40px;
+    height: 40px;
+    z-index: 5;
+    transition: all 0.3s;
+    display: none;
+}
+
+.closeMark i {
+    font-size: 24px;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+
+    .closeSidebar {
+        left: -100%;
+        top: 80px;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 0;
+        height: calc(100% - 140px);
+        border-radius: 0;
+    }
+
+    .open {
+        left: 300px;
+        display: block;
+    }
+
+    .close {
+        left: -100%;
+    }
+
+    .openSidebar {
+        left: 0px;
+        top: 80px;
+    }
+}

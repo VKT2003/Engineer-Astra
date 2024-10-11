@@ -1,0 +1,122 @@
+{
+    "playlists": {
+        "python": [
+            {
+                "playlistId": "PLu0W_9lII9agwh1XjRt242xIpHhPT2llg",
+                "name": "Python for Beginners – Full Course (CodeWithHarry)",
+                "imgUrl": "https://i.ytimg.com/vi/7wnove7K-ZQ/hqdefault.jpg",
+                "videoCount": "100",
+                "firstVideoId": "7wnove7K-ZQ",
+                "description": "This is a full course for beginners to learn Python programming language. This course will teach you Python in a practical manner, with every lecture comes a full coding screencast and a corresponding code notebook. This course is designed around learning Python through practical examples and making you comfortable with Python programming."
+            },
+            {
+                "playlistId": "PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB",
+                "name": "Python for Beginners – Full Course (FreeCodeCamp)",
+                "imgUrl": "https://i.ytimg.com/vi/eWRfhZUzrAc/hqdefault.jpg",
+                "videoCount": "12",
+                "firstVideoId": "eWRfhZUzrAc",
+                "description": "This is a full course for beginners to learn Python programming language. This course will teach you Python in a practical manner, with every lecture comes a full coding screencast and a corresponding code notebook. This course is designed around learning Python through practical examples and making you comfortable with Python programming."
+            },
+            {
+                "playlistId": "PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6",
+                "name": "Python Tutorial beginner to Advance (Edureka!)",
+                "imgUrl": "https://i.ytimg.com/vi/KEku-6CBX6M/hqdefault.jpg",
+                "videoCount": "41",
+                "firstVideoId": "KEku-6CBX6M",
+                "description": "This is a full course for beginners to learn Python programming language. This course will teach you Python in a practical manner, with every lecture comes a full coding screencast and a corresponding code notebook. This course is designed around learning Python through practical examples and making you comfortable with Python programming."
+            }
+        ],
+        "java": [
+            {
+                "playlistId": "PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
+                "name": "Java + DSA + Interview Preparation Course (Kunal Kushwaha)",
+                "imgUrl": "https://i.ytimg.com/vi/rZ41y93P2Qo/hqdefault.jpg",
+                "videoCount": "69",
+                "firstVideoId": "rZ41y93P2Qo"
+            },
+            {
+                "playlistId": "PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr",
+                "name": "Java and DSA Foundation Course",
+                "imgUrl":"https://i.ytimg.com/vi/RJ733wzbNoA/hqdefault.jpg",
+                "videoCount": "70",
+                "firstVideoId":"RJ733wzbNoA"
+            },
+            {
+                "playlistId": "PLsyeobzWxl7qcjd9Cx7W7ViDQk9TcfUlQ",
+                "name": "Java For Programmers",
+                "imgUrl":"https://i.ytimg.com/vi/3b-Wprhc_P8/hqdefault.jpg",
+                "videoCount": "12",
+                "firstVideoId":"3b-Wprhc_P8"
+            }
+        ],
+        "react":[
+            {
+             "playlistId":"PLSsAz5wf2lkK_ekd0J__44KG6QoXetZza",
+             "name":"Master React JS",
+             "imgUrl":"https://i.ytimg.com/vi/MHn66JJH5zs/hqdefault.jpg",
+             "videoCount":"130",
+             "firstVideoId":"MHn66JJH5zs"
+            },
+            {
+                "playlistId":"PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige",
+                "name":"React JS Tutorial",
+                "imgUrl":"https://i.ytimg.com/vi/vz1RlUyrc3w/hqdefault.jpg",
+                "videoCount":"65",
+                "firstVideoId":"vz1RlUyrc3w"
+            },
+            {
+                "playlistId":"PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI",
+                "name":"React JS Crash Course",
+                "videoCount":35,
+                "imgUrl":"https://i.ytimg.com/vi/Eqj7xSKiTlo/hqdefault.jpg",
+                "firstVideoId":"Eqj7xSKiTlo"
+            }
+        ],
+        "web": [
+            {
+                "playlistId": "PLoYCgNOIyGAB_8_iq1cL8MVeun7cB6eNc",
+                "name": "Web Development",
+                "imgUrl": "https://i.ytimg.com/vi/gQojMIhELvM/hqdefault.jpg",
+                "videoCount": "32",
+                "firstVideoId": "gQojMIhELvM"
+            },
+            {
+                "playlistId": "PLSDeUiTMfxW6VChKWb26Z_mPR4f6fAmMV",
+                "name": "Full Stack Web Development",
+                "imgUrl": "https://i.ytimg.com/vi/bWACo_pvKxg/hqdefault.jpg",
+                "videoCount": "22",
+                "firstVideoId": "bWACo_pvKxg"
+            },
+            {
+                "playlistId": "PLwGdqUZWnOp0AZ-7h2b2CwT7eJPgQQ6jV",
+                "name": "Complete Web Development Course",
+                "imgUrl": "https://i.ytimg.com/vi/5ccq_nLHneE/hqdefault.jpg",
+                "videoCount": "36",
+                "firstVideoId": "5ccq_nLHneE"
+            }
+        ],
+        "cybersecurity":[
+            {
+                "playlistId":"PLhQjrBD2T383Cqo5I1oRrbC1EKRAKGKUE",
+                "name":"Introduction to Cybersecurity",
+                "imgUrl":"https://i.ytimg.com/vi/kmJlnUfMd7I/hqdefault.jpg",
+                "videoCount":"6",
+                "firstVideoId":"kmJlnUfMd7I"
+            },
+            {
+                "playlistId":"PLBlnK6fEyqRgJU3EsOYDTW7m6SUmW6kII",
+                "name":"Cybersecurity Tutorial",
+                "imgUrl":"https://i.ytimg.com/vi/JoeiLuFNBc4/hqdefault.jpg",
+                "videoCount":"82",
+                "firstVideoId":"JoeiLuFNBc4"
+            },
+            {
+                "playlistId":"PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_",
+                "name":"Cybersecurity Crash Course",
+                "imgUrl":"https://i.ytimg.com/vi/lpa8uy4DyMo/hqdefault.jpg",
+                "videoCount":"70",
+                "firstVideoId":"lpa8uy4DyMo"
+            }
+        ]
+    }
+}

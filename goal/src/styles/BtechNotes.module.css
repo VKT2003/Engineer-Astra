@@ -1,0 +1,57 @@
+.main{
+    margin-left: 286px;
+    margin-top: 110px;
+}
+
+.content{
+    position: absolute;
+    top:105px;
+    bottom: 8px;
+    right: 8px;
+    left: 295px;
+    /* padding: 10px; */
+    overflow: auto;
+    background-color: #212529;
+    border-radius: 10px;
+}
+
+.content h1{
+    margin: 0;
+}
+
+.content::-webkit-scrollbar{
+    display: none;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    width: 100%; /* Ensure the grid takes up the full width of its container */
+    max-width: 1200px; /* Optional: Set a maximum width for better layout control */
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #fff; /* Optional: Set a background color for the cards */
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+    color: #555;
+  }

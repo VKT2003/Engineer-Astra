@@ -1,0 +1,155 @@
+{
+    "subjects": [
+      {
+        "name": "ENGINEERING PHYSICS",
+        "description": "Fundamentals of physics including optics, waves, and quantum mechanics.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "ENGINEERING CHEMISTRY",
+        "description": "Introduction to chemical principles and applications in engineering.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "ENGINEERING MATHEMATICS 1",
+        "description": "Basic mathematical concepts including calculus and linear algebra.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "ENGINEERING MATHEMATICS 2",
+        "description": "Advanced mathematical methods including differential equations and complex analysis.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "ENGINEERING MATHEMATICS 4",
+        "description": "Further mathematical techniques including numerical methods and probability.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "PROGRAMMING FOR PROBLEM SOLVING",
+        "description": "Introduction to programming concepts and problem-solving techniques.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "SOFT SKILL 1",
+        "description": "Development of communication and interpersonal skills.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "SOFT SKILL 2",
+        "description": "Advanced soft skills focusing on leadership and teamwork.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "HUMAN VALUES",
+        "description": "Study of ethical and moral values in the context of professional life.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "TECHNICAL COMMUNICATION",
+        "description": "Effective communication skills in technical and professional settings.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "ITCS",
+        "description": "Introduction to Information Technology and Computer Science.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "COIL",
+        "description": "Computer Organization and Instruction Level.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "WEB DESIGN",
+        "description": "Principles of designing and creating websites.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "WEB TECHNOLOGY",
+        "description": "Technologies used in web development including HTML, CSS, and JavaScript.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "MACHINE LEARNING",
+        "description": "Introduction to machine learning algorithms and their applications.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "ARTIFICIAL INTELLIGENCE",
+        "description": "Fundamentals of artificial intelligence and its various techniques.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "APPLICATION OF SOFT COMPUTING",
+        "description": "Application of soft computing techniques including fuzzy logic and neural networks.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "DBMS",
+        "description": "Database Management Systems, including relational databases and SQL.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "DAA",
+        "description": "Design and Analysis of Algorithms, focusing on algorithm efficiency and complexity.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "SOFTWARE ENGINEERING",
+        "description": "Principles and practices of software engineering including software development life cycle.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "SPM",
+        "description": "Software Project Management and its methodologies.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "COMPUTER NETWORKS",
+        "description": "Fundamentals of computer networking, including protocols and network design.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "COA",
+        "description": "Computer Organization and Architecture, including processor and memory organization.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "DSTL",
+        "description": "Digital System and Technology Level.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "TAFL",
+        "description": "Theory of Automata and Formal Languages.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "DSA",
+        "description": "Data Structures and Algorithms, focusing on data organization and algorithm design.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "FUNDAMENTAL OF MECHANICS AND MECHATRONICS",
+        "description": "Introduction to mechanics and mechatronics systems.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "ELECTRONICS",
+        "description": "Basic electronics including circuits and devices.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "ELECTRICAL ENGINEERING",
+        "description": "Fundamentals of electrical engineering including circuits and systems.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      },
+      {
+        "name": "MICROPROCESSOR",
+        "description": "Introduction to microprocessors and their applications in computing systems.",
+        "image": "https://w7.pngwing.com/pngs/763/637/png-transparent-directory-icon-folder-miscellaneous-angle-rectangle-thumbnail.png"
+      }
+    ]
+  }
+  

@@ -1,0 +1,151 @@
+.main{
+    margin-left: 286px;
+    margin-top: 110px;
+}
+
+.content{
+    position: absolute;
+    top: 105px;
+    bottom: 8px;
+    right: 8px;
+    left: 295px;
+    /* padding: 10px; */
+    overflow: auto;
+    background-color: #212529;
+    border-radius: 10px;
+    z-index: 2;
+    
+}
+
+.content img{
+    opacity: 0.5;
+    z-index: 1;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    height: 350px;
+}
+
+
+.contentChild{
+    position: absolute;
+    top: 50px;
+    margin: auto 50px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0px 5px rgb(129 129 129);
+    width: 85%;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+    /* border: 8px solid #000; */
+    background: #0d0f11;
+    z-index: 2;
+    left: 0;
+    right: 0;
+}
+.content::-webkit-scrollbar{
+    display: none;
+}
+.contentChild h1 {
+    font-size: 24px; /* Larger heading */
+    color: white; /* Darker text color */
+    margin-bottom: 20px; /* Space below the heading */
+}
+.contentChild label {
+    font-weight: bold; /* Emphasize label */
+    color: white; /* Softer text color */
+    margin-right: 10px; /* Space between label and select */
+}
+
+.contentChild select {
+    padding: 8px 12px; /* Padding inside select */
+    border-radius: 4px; /* Rounded edges */
+    border: none; /* Light border */
+    background-color: #212529; /* White background */
+    color: white; /* Text color */
+    font-size: 16px; /* Font size */
+    margin-right: 10px; /* Space between select and input */
+    width: 120px; /* Fixed width */
+}
+.contentChild input[type="text"] {
+    padding: 11px 12px; /* Padding inside input */
+    border-radius: 5px; /* Rounded edges */
+    border:none;
+    background-color: #212529; /* White background */
+    box-shadow: 0 8px 8px rgba(61, 60, 60, 0.1); /* Subtle shadow */
+    font-size: 16px; /* Font size */
+    color: #f4efef; /* Text color */
+    width: calc(100% - 140px); /* Responsive width */
+}
+
+.contentChild input[type="button"] {
+    background-color: #0056b3;
+    box-shadow: 0 8px 8px rgba(118, 115, 115, 0.1); /* Subtle shadow */
+    color: #fff; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded edges */
+    padding: 11px 21px; /* Padding inside button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    margin-left: 10px; /* Space between input and button */
+    margin-top: 20px;
+}
+
+.contentChild input[type="button"]:hover {
+    background-color: #002c5a; /* Darken on hover */
+}
+
+.gridContainer {
+    position: absolute;
+    top: 400px;
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between grid items */
+    padding: 20px; /* Padding around the grid */
+    background-color: #212529;
+    
+}
+
+.gridItems {
+    background-color: #000; /* White background for items */
+    padding: 15px; /* Padding inside each item */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #1c1e21;
+    box-shadow: 
+    0px 3.26px 3.26px 0px #FFFFFF26 inset, /* First inset shadow */
+    0px 0px 48.91px 0px #FFFFFF0D inset,  /* Second inset shadow */
+    9px 10px 7.1px 0px #00000066,         /* Outer shadow */
+    -0.5px -0.5px 6.9px 0px #FFFFFF40;    /* Light outer shadow */
+}
+
+.gridItems:hover {
+    transform: translateY(-5px); /* Lift on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+.gridItems strong {
+    font-size: 19px; /* Larger font for college name */
+    color: white; /* Darker text color */
+    display: block; /* Block display for spacing */
+    margin-bottom: 10px; /* Space below the name */
+}
+
+.gridItems p {
+    font-size: 14px; /* Smaller font for other details */
+    color: white; /* Softer text color */
+    margin: 5px 0; /* Space around paragraphs */
+}
+
+.gridItems em {
+    font-style: italic; /* Italicize university name */
+    color: #777; /* Lighter text color for university */
+}
+@media screen and (max-width: 768px) {
+    .content {
+        left: 8px;
+        bottom:68px;
+    }
+    
+}

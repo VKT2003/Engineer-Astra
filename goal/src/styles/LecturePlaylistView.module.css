@@ -1,0 +1,404 @@
+.main {
+    margin-left: 286px;
+    margin-top: 110px;
+}
+
+.content {
+    position: absolute;
+    top: 105px;
+    bottom: 8px;
+    right: 8px;
+    left: 295px;
+    overflow: hidden;
+    background-color: #212529;
+    border-radius: 10px;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+.content h2 {
+    color: white;
+    text-align: center;
+    font-size: 34px;
+}
+
+.cardsContainer {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    height: 100%;
+}
+
+.youtube {
+    width: 30%;
+    border-radius: 10px;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    bottom: 8px;
+    overflow: hidden;
+}
+
+.imgContainer {
+    width: 200%;
+    border-radius: 10px;
+    height: 100%;
+    transform: translateX(-25%);
+    opacity: .7;
+    filter: blur(30px);
+}
+
+.imgContainer img {
+    height: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.card_container {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    left: 8px;
+    bottom: 8px;
+    overflow: auto;
+    height: 96%;
+    margin: 5px;
+}
+
+.card_container {
+    overflow-y: scroll;
+    /* Ensures the scrollbar appears if content overflows */
+}
+
+.card_container::-webkit-scrollbar {
+    width: 8px;
+    /* Set the width of the scrollbar */
+}
+
+.card_container::-webkit-scrollbar-track {
+    background: transparent;
+    /* Make the track transparent */
+}
+
+.card_container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Color of the scrollbar thumb */
+    border-radius: 10px;
+    /* Optional: Rounded scrollbar thumb */
+}
+
+.card_container::-webkit-scrollbar-thumb:hover {
+    background-color: #acacac;
+    /* Darken the scrollbar thumb when hovered */
+}
+
+
+.card {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    min-height: 130px;
+    min-width: 170px;
+    height: 100%;
+    width: 100%;
+    background-color: #1c1e21;
+    box-shadow:
+        0px 3.26px 3.26px 0px #FFFFFF26 inset,
+        /* First inset shadow */
+        0px 0px 48.91px 0px #FFFFFF0D inset,
+        /* Second inset shadow */
+        9px 10px 7.1px 0px #00000066,
+        /* Outer shadow */
+        -0.5px -0.5px 6.9px 0px #FFFFFF40;
+    /* Light outer shadow */
+}
+
+.hovered {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #000000;
+    opacity: 0;
+    border-radius: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+    animation: opacity 0.05s;
+}
+
+.card:hover .hovered {
+    opacity: 0.8;
+}
+
+.hovered i {
+    font-size: 18px;
+}
+
+.hovered li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.card img {
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    transform: scale(1.2);
+    min-height: 130px;
+    min-width: 170px;
+}
+
+.playlist {
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    height: 97.5%;
+    border-radius: 10px;
+    padding: 8px 0px 8px 8px;
+    margin-left: 31%;
+}
+
+.playlistVideos {
+    /* background-color: #131313; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.playlistVideos::-webkit-scrollbar {
+    width: 16px;
+}
+
+.playlistVideos::-webkit-scrollbar-thumb {
+    background-color: #333;
+    height: 56px;
+    border-radius: 8px;
+    border: 4px solid transparent;
+    background-clip: content-box;
+}
+
+.playlistVideos::-webkit-scrollbar-track {
+    background-color: #000;
+    border-radius: 8px;
+}
+
+.playlistVideosList {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-right: 4px;
+}
+
+.playlistVideosList:hover,
+.activeLink {
+    background-color: #131313;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.index {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playlist::-webkit-scrollbar {
+    display: none;
+}
+
+.cardImage {
+    width: 170px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.cardImage img {
+    width: 170px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    height: 120px;
+    width: calc(100% - 250px);
+}
+
+.cardContent h4 {
+    margin: 0;
+    font-size: 1rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5em;
+    max-height: 4.5em;
+}
+
+.cardContent a {
+    color: #666;
+    text-decoration: none;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.cardContentSection h3 {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.cardContentSection p {
+    color: #ffffff;
+    font-size: 1rem;
+    letter-spacing: -0.5px;
+    font-weight: 600;
+}
+
+.cardContentSection a {
+    padding: 8px 30px;
+    width: 100px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.count {
+    color: #a7a7a7 !important;
+    font-size: 1rem !important;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 995px) {
+    .youtube{
+        width: 200px;
+    }
+
+    .playlistVideosList{
+        height: 100px;
+    }
+
+    .cardImage {
+        width: 100px;
+        height: 70px;
+        border-radius: 10px;
+    }
+
+    .cardImage img {
+        width: 100px;
+        height: 70px;
+        border-radius: 10px;
+    }
+
+    .cardContent{
+        height: 70px;
+        width: calc(100% - 120px);
+    }
+
+    .playlist{
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        left: 8px;
+        bottom: 60px;
+    }
+
+    .main {
+        bottom: 60px;
+    }
+
+    .cardsContainer {
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+        overflow-x: hidden;
+        height: 100%;
+    }
+
+    .playlist {
+        width: 100%;
+        margin-left: 0;
+        margin-top: calc(100vh - 190px);
+    }
+
+    .youtube {
+        width: calc(100% - 17px);
+        height: calc(100vh - 200px);
+    }
+
+    .hovered {
+        height: 100%;
+    }
+
+    .card img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .card_container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .playlistVideosList{
+        height: 120px;
+    }
+
+    .cardImage {
+        width: 100px;
+        height: 70px;
+        border-radius: 10px;
+    }
+    
+    .cardImage img {
+        width: 100px;
+        height: 70px;
+        border-radius: 10px;
+    }
+
+    .cardContent{
+        height: 70px;
+        width: calc(100% - 120px);
+    }
+}

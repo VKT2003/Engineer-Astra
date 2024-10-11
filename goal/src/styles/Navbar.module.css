@@ -1,0 +1,248 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: #000000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    z-index: 2;
+    /* width: 100%; */
+    right: 0;
+    /* margin-left: 280px; */
+    left: 290px;
+    top: 0;
+    height: 50px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.navbar .left ul {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+}
+
+.navbar .left ul li {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar .left ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.navbar .left ul li:hover {
+    background-color: #434446;
+}
+
+
+
+.courses a:hover~.dropdownContent,
+.dropdownContent:hover {
+    display: block !important;
+}
+
+.navbar ul li:nth-child(3) {
+    position: relative;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #252525;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    top: 20px;
+    left: 50px;
+    border-radius: 9px;
+}
+
+.dropdownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownContent:hover .dropdownContent {
+    display: block;
+}
+
+.userProfile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 40px;
+}
+
+.userProfile div{
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #0056b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.userProfile p{
+    color: #0056b3;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+.userProfile input[type="button"] {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.right input[type="button"] {
+    background-color: #0056b3;
+    color: white;
+    /* Text color */
+    border: none;
+    /* Remove default border */
+    padding: 10px 20px;
+    /* Padding around the button */
+    border-radius: 5px;
+    /* Rounded corners */
+    font-size: 1rem;
+    /* Font size */
+    font-weight: 600;
+    /* Bold font */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s, box-shadow 0.3s;
+    /* Smooth transition effects */
+}
+
+.right input[type="button"]:hover {
+    background-color: #01606E;
+    /* Darker shade on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow on hover */
+}
+
+.right input[type="button"]:active {
+    background-color: #014D57;
+    /* Even darker shade on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* Reduced shadow on click */
+}
+
+/* media query */
+
+.hamburger {
+    position: absolute;
+    left: 8px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger ul {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3px;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid white; */
+}
+
+.hamburger ul li {
+    padding: 0;
+    width: 35px;
+    height: 4px !important;
+    background-color: white;
+    border-radius: 7px;
+    transition: all 0.3s;
+}
+
+.closeHam li:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 6.5px);
+}
+
+.closeHam li:nth-child(2) {
+    display: none;
+}
+
+.closeHam li:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -6.5px);
+}
+
+@media screen and (max-width: 768px) {
+
+    .left {
+        display: none;
+    }
+
+    .navbar {
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .right{
+        position: absolute;
+        right: 8px;
+        top: 20px;
+    }
+
+    .userProfile{
+        position: absolute;
+        right: 8px;
+        top: 20px;
+    }
+}

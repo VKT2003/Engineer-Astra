@@ -1,0 +1,1396 @@
+{
+  "playlists": [
+    {
+      "playlistId": "PLu0W_9lII9agwh1XjRt242xIpHhPT2llg",
+      "name": "Python for Beginners – Full Course (CodeWithHarry)",
+      "videos": [
+        {
+          "title": "Introduction to Programming & Python | Python Tutorial - Day #1",
+          "url": "https://www.youtube.com/watch?v=7wnove7K-ZQ"
+        },
+        {
+          "title": "Some Amazing Python Programs - The Power of Python | Python Tutorial - Day #2",
+          "url": "https://www.youtube.com/watch?v=Tto8TS-fJQU"
+        },
+        {
+          "title": "Modules and Pip | Python Tutorial - Day #3",
+          "url": "https://www.youtube.com/watch?v=xwKO_y2gHxQ"
+        },
+        {
+          "title": "Our First Python Program | Python Tutorial - Day #4",
+          "url": "https://www.youtube.com/watch?v=7IWOYhfAcVg"
+        },
+        {
+          "title": "Comments, Escape Sequences & Print Statement | Python Tutorial - Day #5",
+          "url": "https://www.youtube.com/watch?v=qxPMmW93eDs"
+        },
+        {
+          "title": "Variables and Data Types | Python Tutorial - Day #6",
+          "url": "https://www.youtube.com/watch?v=ORCuz7s5cCY"
+        },
+        {
+          "title": "Exercise 1: Calculator using Python | Python Tutorial - Day #7",
+          "url": "https://www.youtube.com/watch?v=FLVqcxnJP_E"
+        },
+        {
+          "title": "Exercise 1: Calculator using Python (Solution) | Python Tutorial - Day #8",
+          "url": "https://www.youtube.com/watch?v=dohaSBCKCr0"
+        },
+        {
+          "title": "Typecasting in Python | Python Tutorial - Day #9",
+          "url": "https://www.youtube.com/watch?v=Pu5bqySSSS0"
+        },
+        {
+          "title": "Taking User Input in Python | Python Tutorial - Day #10",
+          "url": "https://www.youtube.com/watch?v=WvG-R-xXouA"
+        },
+        {
+          "title": "Strings in Python | Python Tutorial - Day #11",
+          "url": "https://www.youtube.com/watch?v=kMNFQYArrLg"
+        },
+        {
+          "title": "Strings Slicing and Operations on Strings in Python | Python Tutorial - Day #12",
+          "url": "https://www.youtube.com/watch?v=8jW7lpT8HW8"
+        },
+        {
+          "title": "String Methods in Python | Python Tutorial - Day #13",
+          "url": "https://www.youtube.com/watch?v=0INvoK_T0cE"
+        },
+        {
+          "title": "If Else Conditional Statements in Python | Python Tutorial - Day #14",
+          "url": "https://www.youtube.com/watch?v=ceiuLR2ysas"
+        },
+        {
+          "title": "Exercise 2: Good Morning Sir | Python Tutorial - Day #15",
+          "url": "https://www.youtube.com/watch?v=d7ng_aV4qdI"
+        },
+        {
+          "title": "Match Case Statements in Python | Python Tutorial - Day #16",
+          "url": "https://www.youtube.com/watch?v=bthQCK1QAmQ"
+        },
+        {
+          "title": "For Loops in Python | Python Tutorial - Day #17",
+          "url": "https://www.youtube.com/watch?v=fIYVzKp0q5w"
+        },
+        {
+          "title": "While Loops in Python | Python Tutorial - Day #18",
+          "url": "https://www.youtube.com/watch?v=-tCFyIyKVx0"
+        },
+        {
+          "title": "break and continue in Python | Python Tutorial - Day #19",
+          "url": "https://www.youtube.com/watch?v=RkwJnjdrm70"
+        },
+        {
+          "title": "Functions in Python | Python Tutorial - Day #20",
+          "url": "https://www.youtube.com/watch?v=dyvxxJSGUsE"
+        },
+        {
+          "title": "Function Arguments in Python | Python Tutorial - Day #21",
+          "url": "https://www.youtube.com/watch?v=0d6b6fFuCkE"
+        },
+        {
+          "title": "Introduction to Lists in Python | Python Tutorial - Day #22",
+          "url": "https://www.youtube.com/watch?v=eF6nK5bSlmg"
+        },
+        {
+          "title": "List Methods in Python | Python Tutorial - Day #23",
+          "url": "https://www.youtube.com/watch?v=scWc3F8LbOo"
+        },
+        {
+          "title": "Tuples in Python | Python Tutorial - Day #24",
+          "url": "https://www.youtube.com/watch?v=PipsOUDKrVk"
+        },
+        {
+          "title": "Operations on Tuples in Python | Python Tutorial - Day #25",
+          "url": "https://www.youtube.com/watch?v=XblLSduioJI"
+        },
+        {
+          "title": "Exercise 2: Solution & Shoutouts | Python Tutorial - Day #26",
+          "url": "https://www.youtube.com/watch?v=IZBKXWrbqBM"
+        },
+        {
+          "title": "Exercise 3: Kaun Banega Crorepati (KBC) | Python Tutorial - Day #27",
+          "url": "https://www.youtube.com/watch?v=Vs1Z7K70Mvw"
+        },
+        {
+          "title": "f-strings in Python | Python Tutorial - Day #28",
+          "url": "https://www.youtube.com/watch?v=ixmxgUf8yIg"
+        },
+        {
+          "title": "Docstrings in Python | Python Tutorial - Day #29",
+          "url": "https://www.youtube.com/watch?v=SJzsNd7SM0g"
+        },
+        {
+          "title": "Recursion in Python | Python Tutorial - Day #30",
+          "url": "https://www.youtube.com/watch?v=XYwJKFB8DUk"
+        },
+        {
+          "title": "Sets in Python | Python Tutorial - Day #31",
+          "url": "https://www.youtube.com/watch?v=l3kCO8cVA6o"
+        },
+        {
+          "title": "Set Methods in Python | Python Tutorial - Day #32",
+          "url": "https://www.youtube.com/watch?v=HOrutCnp2zo"
+        },
+        {
+          "title": "Dictionaries in Python | Python Tutorial - Day #33",
+          "url": "https://www.youtube.com/watch?v=j2G68uQtOwM"
+        },
+        {
+          "title": "Dictionary Methods in Python | Python Tutorial - Day #34",
+          "url": "https://www.youtube.com/watch?v=LmbFwaLjT9k"
+        },
+        {
+          "title": "for Loop with else in Python | Python Tutorial - Day #35",
+          "url": "https://www.youtube.com/watch?v=qUkcIgErZzc"
+        },
+        {
+          "title": "Exception Handling in Python | Python Tutorial - Day #36",
+          "url": "https://www.youtube.com/watch?v=4LKo6dlku7M"
+        },
+        {
+          "title": "Finally keyword in Python | Python Tutorial - Day #37",
+          "url": "https://www.youtube.com/watch?v=r_iuC-IDpPM"
+        },
+        {
+          "title": "Raising custom errors in Python | Python Tutorial - Day #38",
+          "url": "https://www.youtube.com/watch?v=Phr4CNppYoM"
+        },
+        {
+          "title": "Kaun Banega Crorepati: Exercise 3 - Solution & Shoutouts | Python Tutorial - Day #39",
+          "url": "https://www.youtube.com/watch?v=nyfeYAxP-EM"
+        },
+        {
+          "title": "Exercise 4: Secret Code Language | Python Tutorial - Day #40",
+          "url": "https://www.youtube.com/watch?v=pOWJ6WgVRIU"
+        },
+        {
+          "title": "Short hand if else statements | Python Tutorial - Day #41",
+          "url": "https://www.youtube.com/watch?v=Qqx_zNmQVGI"
+        },
+        {
+          "title": "Enumerate Function in Python | Python Tutorial - Day #42",
+          "url": "https://www.youtube.com/watch?v=kGnYc_h1geM"
+        },
+        {
+          "title": "Virtual Environment in Python | Python Tutorial - Day #43",
+          "url": "https://www.youtube.com/watch?v=nt6LlFTWOkg"
+        },
+        {
+          "title": "How import works in Python | Python Tutorial - Day #44",
+          "url": "https://www.youtube.com/watch?v=Pr7UOr35NcI"
+        },
+        {
+          "title": "if __name__ == '__main__' in Python | Python Tutorial - Day #45",
+          "url": "https://www.youtube.com/watch?v=y_CX2Rvitk8"
+        },
+        {
+          "title": "os Module in Python | Python Tutorial - Day #46",
+          "url": "https://www.youtube.com/watch?v=dkVYSsL90Oo"
+        },
+        {
+          "title": "Exercise 4: Solutions and Shoutouts | Python Tutorial - Day #47",
+          "url": "https://www.youtube.com/watch?v=4lSQfOJKn7U"
+        },
+        {
+          "title": "Local vs Global Variables in Python| Python Tutorial - Day #48",
+          "url": "https://www.youtube.com/watch?v=RaG6GgcDt54"
+        },
+        {
+          "title": "File IO in Python | Python Tutorial - Day #49",
+          "url": "https://www.youtube.com/watch?v=eDBPlcWYses"
+        },
+        {
+          "title": "read(), readlines() and other methods | Python Tutorial - Day #50",
+          "url": "https://www.youtube.com/watch?v=l1FsnQxET9U"
+        },
+        {
+          "title": "seek(), tell() and other functions | Python Tutorial - Day #51",
+          "url": "https://www.youtube.com/watch?v=7wnove7K-ZQ"
+        },
+        {
+          "title": "Lambda functions in Python | Python Tutorial - Day #52",
+          "url": "https://www.youtube.com/watch?v=Tto8TS-fJQU"
+        },
+        {
+          "title": "Map, Filter and Reduce in Python | Python Tutorial - Day #53",
+          "url": "https://www.youtube.com/watch?v=xwKO_y2gHxQ"
+        },
+        {
+          "title": "'is' vs '==' in Python | Python Tutorial - Day #54",
+          "url": "https://www.youtube.com/watch?v=7IWOYhfAcVg"
+        },
+        {
+          "title": "Exercise 5 - Snake Water Gun | Python Tutorial - Day #55",
+          "url": "https://www.youtube.com/watch?v=qxPMmW93eDs"
+        },
+        {
+          "title": "Introduction to OOPs in Python | Python Tutorial - Day #56",
+          "url": "https://www.youtube.com/watch?v=ORCuz7s5cCY"
+        },
+        {
+          "title": "Classes and Objects in Python | Python Tutorial - Day #57",
+          "url": "https://www.youtube.com/watch?v=FLVqcxnJP_E"
+        },
+        {
+          "title": "Constructors in Python | Python Tutorial - Day #58",
+          "url": "https://www.youtube.com/watch?v=dohaSBCKCr0"
+        },
+        {
+          "title": "Decorators in Python | Python Tutorial - Day #59",
+          "url": "https://www.youtube.com/watch?v=Pu5bqySSSS0"
+        },
+        {
+          "title": "Getters and Setters in Python | Python Tutorial - Day #60",
+          "url": "https://www.youtube.com/watch?v=WvG-R-xXouA"
+        },
+        {
+          "title": "Inheritance in Python | Python Tutorial - Day #61",
+          "url": "https://www.youtube.com/watch?v=kMNFQYArrLg"
+        },
+        {
+          "title": "Access Modifiers in Python | Python Tutorial - Day #62",
+          "url": "https://www.youtube.com/watch?v=8jW7lpT8HW8"
+        },
+        {
+          "title": "Snake Water Gun Game in Python - Exercise 5 - Solution | Python Tutorial - Day #63",
+          "url": "https://www.youtube.com/watch?v=0INvoK_T0cE"
+        },
+        {
+          "title": "Exercise 6 - Library Management System in Python | Python Tutorial - Day #64",
+          "url": "https://www.youtube.com/watch?v=ceiuLR2ysas"
+        },
+        {
+          "title": "Static Methods in Python | Python Tutorial - Day #65",
+          "url": "https://www.youtube.com/watch?v=d7ng_aV4qdI"
+        },
+        {
+          "title": "Instance variables vs Class variables in Python | Python Tutorial - Day #66",
+          "url": "https://www.youtube.com/watch?v=bthQCK1QAmQ"
+        },
+        {
+          "title": "Exercise 6 Solution - Library Management Software in Python | Python Tutorial - Day #67",
+          "url": "https://www.youtube.com/watch?v=fIYVzKp0q5w"
+        },
+        {
+          "title": "Exercise 7 - Clear the Clutter | Python Tutorial - Day #68",
+          "url": "https://www.youtube.com/watch?v=-tCFyIyKVx0"
+        },
+        {
+          "title": "Class Methods in Python | Python Tutorial - Day #69",
+          "url": "https://www.youtube.com/watch?v=RkwJnjdrm70"
+        },
+        {
+          "title": "Class Methods as Alternative Constructors in Python | Python Tutorial - Day #70",
+          "url": "https://www.youtube.com/watch?v=dyvxxJSGUsE"
+        },
+        {
+          "title": "dir, __dict__ and help method in Python | Python Tutorial - Day #71",
+          "url": "https://www.youtube.com/watch?v=0d6b6fFuCkE"
+        },
+        {
+          "title": "super keyword in Python | Python Tutorial - Day #72",
+          "url": "https://www.youtube.com/watch?v=eF6nK5bSlmg"
+        },
+        {
+          "title": "Magic/Dunder Methods in Python | Python Tutorial - Day #73",
+          "url": "https://www.youtube.com/watch?v=scWc3F8LbOo"
+        },
+        {
+          "title": "Method Overriding in Python | Python Tutorial - Day #74",
+          "url": "https://www.youtube.com/watch?v=PipsOUDKrVk"
+        },
+        {
+          "title": "Exercise 7 Solution + Shoutouts | Python Tutorial - Day #75",
+          "url": "https://www.youtube.com/watch?v=XblLSduioJI"
+        },
+        {
+          "title": "Exercise 8 - Merge the PDF | Python Tutorial - Day #76",
+          "url": "https://www.youtube.com/watch?v=IZBKXWrbqBM"
+        },
+        {
+          "title": "Operator Overloading in Python | Python Tutorial - Day #77",
+          "url": "https://www.youtube.com/watch?v=Vs1Z7K70Mvw"
+        },
+        {
+          "title": "Single Inheritance in Python | Python Tutorial - Day #78",
+          "url": "https://www.youtube.com/watch?v=ixmxgUf8yIg"
+        },
+        {
+          "title": "Multiple Inheritance in Python | Python Tutorial - Day #79",
+          "url": "https://www.youtube.com/watch?v=SJzsNd7SM0g"
+        },
+        {
+          "title": "Multilevel Inheritance in Python | Python Tutorial - Day #80",
+          "url": "https://www.youtube.com/watch?v=XYwJKFB8DUk"
+        },
+        {
+          "title": "Hybrid and Hierarchical Inheritance in Python | Python Tutorial - Day #81",
+          "url": "https://www.youtube.com/watch?v=l3kCO8cVA6o"
+        },
+        {
+          "title": "Exercise 8 - Merge the Pdf Solution in Python | Python Tutorial - Day #82",
+          "url": "https://www.youtube.com/watch?v=HOrutCnp2zo"
+        },
+        {
+          "title": "Exercise 9 - Shoutouts to Everyone | Python Tutorial - Day #83",
+          "url": "https://www.youtube.com/watch?v=j2G68uQtOwM"
+        },
+        {
+          "title": "Time Module in Python | Python Tutorial - Day #84",
+          "url": "https://www.youtube.com/watch?v=LmbFwaLjT9k"
+        },
+        {
+          "title": "Creating command line utility in python | Python Tutorial - Day #85",
+          "url": "https://www.youtube.com/watch?v=qUkcIgErZzc"
+        },
+        {
+          "title": "Walrus Operator in Python | Python Tutorial - Day #86",
+          "url": "https://www.youtube.com/watch?v=4LKo6dlku7M"
+        },
+        {
+          "title": "Shutil Module in Python | Python Tutorial - Day #87",
+          "url": "https://www.youtube.com/watch?v=r_iuC-IDpPM"
+        },
+        {
+          "title": "Exercise 9: Solution - Shoutouts to Everyone | Python Tutorial - Day #88",
+          "url": "https://www.youtube.com/watch?v=Phr4CNppYoM"
+        },
+        {
+          "title": "Requests Module in Python | Python Tutorial - Day #89",
+          "url": "https://www.youtube.com/watch?v=nyfeYAxP-EM"
+        },
+        {
+          "title": "Exercise 10: News App in Python | Python Tutorial - Day #90",
+          "url": "https://www.youtube.com/watch?v=pOWJ6WgVRIU"
+        },
+        {
+          "title": "Generators in Python | Python Tutorial - Day #91",
+          "url": "https://www.youtube.com/watch?v=Qqx_zNmQVGI"
+        },
+        {
+          "title": "Function Caching in Python | Python Tutorial - Day #92",
+          "url": "https://www.youtube.com/watch?v=kGnYc_h1geM"
+        },
+        {
+          "title": "Exercise 10 - News App Solution & Shoutout | Python Tutorial - Day #93",
+          "url": "https://www.youtube.com/watch?v=nt6LlFTWOkg"
+        },
+        {
+          "title": "Exercise 11 - Drink Water Reminder | Python Tutorial - Day #94",
+          "url": "https://www.youtube.com/watch?v=Pr7UOr35NcI"
+        },
+        {
+          "title": "Regular Expressions in Python | Python Tutorial - Day #95",
+          "url": "https://www.youtube.com/watch?v=y_CX2Rvitk8"
+        },
+        {
+          "title": "AsyncIO in Python | Python Tutorial - Day #96",
+          "url": "https://www.youtube.com/watch?v=dkVYSsL90Oo"
+        },
+        {
+          "title": "Multithreading in Python | Python Tutorial - Day #97",
+          "url": "https://www.youtube.com/watch?v=4lSQfOJKn7U"
+        },
+        {
+          "title": "MultiProcessing in Python | Python Tutorial - Day #98",
+          "url": "https://www.youtube.com/watch?v=RaG6GgcDt54"
+        },
+        {
+          "title": "Exercise 11: Solution + Shoutouts - Desktop Notification System | Python Tutorial - Day #99",
+          "url": "https://www.youtube.com/watch?v=eDBPlcWYses"
+        },
+        {
+          "title": "Conclusion and Where to go from here | Python Tutorial - Day #100",
+          "url": "https://www.youtube.com/watch?v=l1FsnQxET9U"
+        }
+      ]
+    },
+    {
+      "playlistId": "PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB",
+      "name": "Python for Beginners – Full Course (FreeCodeCamp)",
+      "videos": [
+        {
+          "title": "Python for Beginners – Full Course [Programming Tutorial]",
+          "url": "https://www.youtube.com/watch?v=eWRfhZUzrAc"
+        },
+        {
+          "title": "Intermediate Python Programming Course",
+          "url": "https://www.youtube.com/watch?v=HGOBQPFzWKo"
+        },
+        {
+          "title": "Python for Everybody - Full University Python Course",
+          "url": "https://www.youtube.com/watch?v=8DvywoWv6fI"
+        },
+        {
+          "title": "Object Oriented Programming with Python - Full Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=Ej_02ICOIgs"
+        },
+        {
+          "title": "Python for Data Science - Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib)",
+          "url": "https://www.youtube.com/watch?v=LHBE6Q9XlzI"
+        },
+        {
+          "title": "Flask Course - Python Web Application Development",
+          "url": "https://www.youtube.com/watch?v=Qr4QMBUPxWo"
+        },
+        {
+          "title": "Django For Everybody - Full Python University Course",
+          "url": "https://www.youtube.com/watch?v=o0XbHvKxw7Y"
+        },
+        {
+          "title": "Data Analysis with Python for Excel Users - Full Course",
+          "url": "https://www.youtube.com/watch?v=WcDaZ67TVRo"
+        },
+        {
+          "title": "Tkinter Course - Create Graphic User Interfaces in Python Tutorial",
+          "url": "https://www.youtube.com/watch?v=YXPyB4XeYLA"
+        },
+        {
+          "title": "Python API Development - Comprehensive Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA"
+        },
+        {
+          "title": "Python Backend Web Development Course (with Django)",
+          "url": "https://www.youtube.com/watch?v=jBzwzrDvZ18"
+        },
+        {
+          "title": "Data Structures and Algorithms in Python - Full Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=pkYVOmU3MgA"
+        }
+      ]
+    },
+    {
+      "playlistId": "PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6",
+      "name": "Python Tutorial beginner to Advance (Edureka!)",
+      "videos": [
+        {
+          "title": "Python Full Course | Python for Beginners (Full Course) | Best Python Course with Examples | Edureka",
+          "url": "https://www.youtube.com/watch?v=KEku-6CBX6M&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=1&pp=iAQB"
+        },
+        {
+          "title": "Python for Beginners [Full Course - 2024] | Python Full Course - Learn Python in 12 Hours | Edureka",
+          "url": "https://www.youtube.com/watch?v=X6bFJI9r-mM&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=2&pp=iAQB"
+        },
+        {
+          "title": "Python If Else | If Else Statement In Python | Python Training | Edureka",
+          "url": "https://www.youtube.com/watch?v=nMEFZ6TvkDA&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=3&pp=iAQB"
+        },
+        {
+          "title": "While Loop In Python | Python While Loop Explained | Python Tutorial For Beginners | Edureka",
+          "url": "https://www.youtube.com/watch?v=JKK13i_ApOw&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=4&pp=iAQB"
+        },
+        {
+          "title": "Python Developer Salary | Average Salary of a Python Developer in India and US | Edureka",
+          "url": "https://www.youtube.com/watch?v=tjfDUKnhwaQ&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=5&pp=iAQB"
+        },
+        {
+          "title": "5 Simple Steps To Install Python On Windows | Install Python 3.7 | Python Training | Edureka",
+          "url": "https://www.youtube.com/watch?v=QMbnSoB1CRU&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=6&pp=iAQB"
+        },
+        {
+          "title": "Python Programs | Fibonacci Series, Interview Programs, Pattern Programs in Python | Edureka",
+          "url": "https://www.youtube.com/watch?v=nX9kWPxzp9w&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=7&pp=iAQB"
+        },
+        {
+          "title": "Variables & Data Types In Python | Python Tutorial For Beginners | Python Programming | Edureka",
+          "url": "https://www.youtube.com/watch?v=6yrsX752CWk&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=8&pp=iAQB"
+        },
+        {
+          "title": "Python OOPS Concepts | Python OOP Tutorial | Python Classes and Objects | Python Tutorial | Edureka",
+          "url": "https://www.youtube.com/watch?v=SRu1GAfr3LA&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=9&pp=iAQB"
+        },
+        {
+          "title": "Operators In Python | Python Tutorial For Beginners | Python Training | Edureka",
+          "url": "https://www.youtube.com/watch?v=Pm9FOpOwhlA&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=10&pp=iAQB"
+        },
+        {
+          "title": "Python Comments | How To Write Comments In Python | Python Tutorial For Beginners | Edureka",
+          "url": "https://www.youtube.com/watch?v=yHFcNNh-SsA&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=11&pp=iAQB"
+        },
+        {
+          "title": "Arrays In Python | Python Array Operations | Python Tutorial For Beginners | Edureka",
+          "url": "https://www.youtube.com/watch?v=phRshQSU-xA&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=12&pp=iAQB"
+        },
+        {
+          "title": "Data Structures and Algorithms in Python | Python Programming Tutorial | Python Training | Edureka",
+          "url": "https://www.youtube.com/watch?v=xOuRE3IuEB8&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=13&pp=iAQB"
+        },
+        {
+          "title": "Python Lists | Python Tuples | Python Sets & Dictionary | Python Strings | Python Training | Edureka",
+          "url": "https://www.youtube.com/watch?v=fAw8pM_dQP4&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=14&pp=iAQB"
+        },
+        {
+          "title": "Sets In Python | Python Sets Tutorial | Python Tutorial for Beginners | Edureka",
+          "url": "https://www.youtube.com/watch?v=MEPlLAjPvXY&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=15&pp=iAQB"
+        },
+        {
+          "title": "Dictionary In Python | Python Dictionary Tutorial | Python Certification Training | Edureka",
+          "url": "https://www.youtube.com/watch?v=rZjhId0VkuY&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=16&pp=iAQB"
+        },
+        {
+          "title": "Python Loops Tutorial | Python For Loop | While Loop Python | Python Training | Edureka",
+          "url": "https://www.youtube.com/watch?v=zFvoXxeoosI&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=17&pp=iAQB"
+        },
+        {
+          "title": "Python Functions Tutorial | Working With Functions In Python | Python Training | Edureka",
+          "url": "https://www.youtube.com/watch?v=oSPMmeaiQ68&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=18&pp=iAQB"
+        },
+        {
+          "title": "Python File Handling | File Operations in Python | Learn python programming | Edureka",
+          "url": "https://www.youtube.com/watch?v=ixEeeNjjOJ0&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=19&pp=iAQB"
+        },
+        {
+          "title": "Exception Handling In Python | Exceptions In Python | Python Programming Tutorial | Edureka",
+          "url": "https://www.youtube.com/watch?v=NMTEjQ8-AJM&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=20&pp=iAQB"
+        },
+        {
+          "title": "Python RegEx | Python Regular Expressions Tutorial | Python Tutorial | Python Training | Edureka",
+          "url": "https://www.youtube.com/watch?v=zN8rwVXwRUE&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=21&pp=iAQB"
+        },
+        {
+          "title": "Socket Programming in Python | Sending and Receiving Data with Sockets in Python | Edureka",
+          "url": "https://www.youtube.com/watch?v=T0rYSFPAR0A&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=22&pp=iAQB"
+        },
+        {
+          "title": "Python Interview Questions And Answers | Python Interview Questions | Python Training | Edureka",
+          "url": "https://www.youtube.com/watch?v=B_17_RORoiI&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=23&pp=iAQB"
+        },
+        {
+          "title": "Advanced Python Tutorial | Learn Advanced Python Concepts | Python Programming Training | Edureka",
+          "url": "https://www.youtube.com/watch?v=O1gZc-erLjg&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=24&pp=iAQB"
+        },
+        {
+          "title": "Python Full Course - 12 Hours | Python For Beginners - Full Course | Python Tutorial | Edureka",
+          "url": "https://www.youtube.com/watch?v=WGJJIrtnfpk&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=25&pp=iAQB"
+        },
+        {
+          "title": "Python For Data Analysis | Data Analysis Using Python | Python Data Analysis Tutorial | Edureka",
+          "url": "https://www.youtube.com/watch?v=B42n3Pc-N2A&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=26&pp=iAQB"
+        },
+        {
+          "title": "Java vs Python Comparison | Which One You Should Learn? | Edureka",
+          "url": "https://www.youtube.com/watch?v=s3Ejdx6cIho&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=27&pp=iAQB"
+        },
+        {
+          "title": "Python Database Connection | How to Connect Python with MySQL Database | Edureka",
+          "url": "https://www.youtube.com/watch?v=g60QghtJmjY&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=28&pp=iAQB"
+        },
+        {
+          "title": "How To Code In Python | Python For Beginners | Python Coding Tutorial | Python Training | Edureka",
+          "url": "https://www.youtube.com/watch?v=WRNV7NVLNuA&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=29&pp=iAQB"
+        },
+        {
+          "title": "Top 5 Programming Languages For Gaming | Best Programming Languages For Game Development | Edureka",
+          "url": "https://www.youtube.com/watch?v=-dCj2Ng1noo&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=30&pp=iAQB"
+        },
+        {
+          "title": "Python for Beginners | Python Full Course [2024] | Python Tutorial | Edureka",
+          "url": "https://www.youtube.com/watch?v=fWedX4IxzN8&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=31&pp=iAQB"
+        },
+        {
+          "title": "Statistics Using Python | Statistics Python Tutorial | Python Certification Training | Edureka",
+          "url": "https://www.youtube.com/watch?v=mQ-3KwrBIN0&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=32&pp=iAQB"
+        },
+        {
+          "title": "Python NumPy Tutorial | NumPy Array | Python Tutorial For Beginners | Python Training | Edureka",
+          "url": "https://www.youtube.com/watch?v=8JfDAm9y_7s&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=33&pp=iAQB"
+        },
+        {
+          "title": "Python Pandas Tutorial | Pandas Library - Python Programming | Python Tutorial | Edureka",
+          "url": "https://www.youtube.com/watch?v=UB3DE5Bgfx4&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=34&pp=iAQB"
+        },
+        {
+          "title": "Python Full Course - Learn Python in 12 Hours | Python for Beginners [Full Course - 2024] | Edureka",
+          "url": "https://www.youtube.com/watch?v=ynE7p65jLts&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=35&pp=iAQB"
+        },
+        {
+          "title": "Python Programming for Beginners | Python Tutorial for Beginners | Learn Python Programming |Edureka",
+          "url": "https://www.youtube.com/watch?v=RmlzQG21mjo&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=36&pp=iAQB"
+        },
+        {
+          "title": "Python Full Course [2024] | Python for Beginners - 12 Hours | Python Tutorial | Edureka",
+          "url": "https://www.youtube.com/watch?v=lZAGS4n1Odw&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=37&pp=iAQB"
+        },
+        {
+          "title": "Complete Python Programming Roadmap [2024] | Python for Beginners | Python Tutorial | Edureka",
+          "url": "https://www.youtube.com/watch?v=U8lm6FuPoUs&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=38&pp=iAQB"
+        },
+        {
+          "title": "How to Make a Game in Python | Making a Game in Python | Python Snake Game | Python Game | Edureka",
+          "url": "https://www.youtube.com/watch?v=MBlzeUkch0o&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=39&pp=iAQB"
+        },
+        {
+          "title": "Python developer Full Course [2024] | Python for Beginners - 10 Hours | Python Course | Edureka",
+          "url": "https://www.youtube.com/watch?v=HkPpSUbrgNI&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=40&pp=iAQB"
+        },
+        {
+          "title": "Top 50 Python Interview Questions | Python Interview Questions And Answers | Edureka",
+          "url": "https://www.youtube.com/watch?v=lEC7nuPtHp0&list=PL9ooVrP1hQOE4KoZLUP4LgBwFH2IJCQs6&index=41&pp=iAQB"
+        }
+      ]
+    },
+    {
+      "playlistId": "PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
+      "name": "Java + DSA + Interview Preparation Course (Kunal Kushwaha)",
+      "videos": [
+        {
+          "title": "Best Data Structures & Algorithms (DSA) Course - Clear Any FAANG Interview!",
+          "url": "https://www.youtube.com/watch?v=rZ41y93P2Qo&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=1&pp=iAQB"
+        },
+        {
+          "title": "Java vs C++ for Data Structures & Algorithms",
+          "url": "https://www.youtube.com/watch?v=Nckx9qMy_kw&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=2&pp=iAQB"
+        },
+        {
+          "title": "How I Cleared My Google Interviews - Use LeetCode Effectively!",
+          "url": "https://www.youtube.com/watch?v=waGfV-IoOt8&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=3&pp=iAQB"
+        },
+        {
+          "title": "Complete Git and GitHub Tutorial",
+          "url": "https://www.youtube.com/watch?v=apGV9Kg7ics&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=4&pp=iAQB"
+        },
+        {
+          "title": "Introduction to Programming - Types of Languages, Memory Management",
+          "url": "https://www.youtube.com/watch?v=wn49bJOYAZM&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=5&pp=iAQB"
+        },
+        {
+          "title": "Flow of Program - Flowcharts & Pseudocode",
+          "url": "https://www.youtube.com/watch?v=lhELGQAV4gg&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=6&pp=iAQB"
+        },
+        {
+          "title": "Introduction to Java - Architecture & Installation",
+          "url": "https://www.youtube.com/watch?v=4EP8YzcN0hQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=7&pp=iAQB"
+        },
+        {
+          "title": "First Java Program - Input/Output, Debugging and Datatypes",
+          "url": "https://www.youtube.com/watch?v=TAtrPoaJ7gc&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=8&pp=iAQB"
+        },
+        {
+          "title": "Conditionals and Loops + Calculator Program",
+          "url": "https://www.youtube.com/watch?v=ldYLYRNaucM&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=9&pp=iAQB"
+        },
+        {
+          "title": "Switch Statements + Nested Case in Java",
+          "url": "https://www.youtube.com/watch?v=mA23x39DjbI&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=10&pp=iAQB"
+        },
+        {
+          "title": "Functions / Methods in Java",
+          "url": "https://www.youtube.com/watch?v=vvanI8NRlSI&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=11&pp=iAQB"
+        },
+        {
+          "title": "Introduction to Arrays and ArrayList in Java",
+          "url": "https://www.youtube.com/watch?v=n60Dn0UsbEk&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=12&pp=iAQB"
+        },
+        {
+          "title": "Linear Search Algorithm - Theory + Code + Questions",
+          "url": "https://www.youtube.com/watch?v=_HRA37X8N_Q&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=13&pp=iAQB"
+        },
+        {
+          "title": "Binary Search Algorithm - Theory + Code",
+          "url": "https://www.youtube.com/watch?v=f6UU7V3szVw&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=14&pp=iAQB"
+        },
+        {
+          "title": "Binary Search Interview Questions - Google, Facebook, Amazon",
+          "url": "https://www.youtube.com/watch?v=W9QJ8HaRvJQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=15&pp=iAQB"
+        },
+        {
+          "title": "Binary Search in 2D Arrays",
+          "url": "https://www.youtube.com/watch?v=enI_KyGLYPo&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=16&pp=iAQB"
+        },
+        {
+          "title": "Bubble Sort Algorithm - Theory + Code",
+          "url": "https://www.youtube.com/watch?v=F5MZyqRp_IM&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=17&pp=iAQB"
+        },
+        {
+          "title": "Selection Sort Algorithm - Theory + Code",
+          "url": "https://www.youtube.com/watch?v=Nd4SCCIHFWk&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=18&pp=iAQB"
+        },
+        {
+          "title": "Insertion Sort Algorithm - Theory + Code",
+          "url": "https://www.youtube.com/watch?v=By_5-RRqVeE&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=19&pp=iAQB"
+        },
+        {
+          "title": "Cycle Sort - Amazon, Google, Microsoft Interview Questions",
+          "url": "https://www.youtube.com/watch?v=JfinxytTYFQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=20&pp=iAQB"
+        },
+        {
+          "title": "Strings and StringBuilder in Java",
+          "url": "https://www.youtube.com/watch?v=zL1DPZ0Ovlo&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=21&pp=iAQB"
+        },
+        {
+          "title": "Solve Any Pattern Question With This Trick!",
+          "url": "https://www.youtube.com/watch?v=lsOOs5J8ycw&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=22&pp=iAQB"
+        },
+        {
+          "title": "Introduction to Recursion - Learn In The Best Way",
+          "url": "https://www.youtube.com/watch?v=M2uO2nMT0Bk&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=23&pp=iAQB"
+        },
+        {
+          "title": "Time and Space Complexity COMPLETE Tutorial - What is Big O?",
+          "url": "https://www.youtube.com/watch?v=mV3wrLBbuuE&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=24&pp=iAQB"
+        },
+        {
+          "title": "Bitwise Operators + Number Systems - Maths for DSA",
+          "url": "https://www.youtube.com/watch?v=fzip9Aml6og&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=25&pp=iAQB"
+        },
+        {
+          "title": "Maths for Data Structures & Algorithms",
+          "url": "https://www.youtube.com/watch?v=lmSpZ0bjCyQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=26&pp=iAQB"
+        },
+        {
+          "title": "Recursion - Level 1 Questions (Theory + Code + Tips)",
+          "url": "https://www.youtube.com/watch?v=JxILxTwHukM&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=27&pp=iAQB"
+        },
+        {
+          "title": "Recursion - Array Questions (Theory + Code + Tips)",
+          "url": "https://www.youtube.com/watch?v=sTdiMLom00U&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=28&pp=iAQB"
+        },
+        {
+          "title": "Recursion - Pattern Questions + Bubble Sort + Selection Sort",
+          "url": "https://www.youtube.com/watch?v=ymgnIIclCF0&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=29&pp=iAQB"
+        },
+        {
+          "title": "Merge Sort Using Recursion (Theory + Complexity + Code)",
+          "url": "https://www.youtube.com/watch?v=iKGAgWdgoRk&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=30&pp=iAQB"
+        },
+        {
+          "title": "Quick Sort Using Recursion (Theory + Complexity + Code)",
+          "url": "https://www.youtube.com/watch?v=Z8svOqamag8&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=31&pp=iAQB"
+        },
+        {
+          "title": "Recursion Subset, Subsequence, String Questions",
+          "url": "https://www.youtube.com/watch?v=gdifkIwCJyg&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=32&pp=iAQB"
+        },
+        {
+          "title": "Recursion - Permutations (Theory + Code + Tips)",
+          "url": "https://www.youtube.com/watch?v=gDGw0cvFXPQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=33&pp=iAQB"
+        },
+        {
+          "title": "Recursion Google, Amazon Questions: Dice Throw & Letter Combinations of a Phone Number",
+          "url": "https://www.youtube.com/watch?v=9ByWqPzfXDU&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=34&pp=iAQB"
+        },
+        {
+          "title": "Backtracking Introduction + Maze Problems - Theory + Code + Tips",
+          "url": "https://www.youtube.com/watch?v=zg5v2rlV1tM&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=35&pp=iAQB"
+        },
+        {
+          "title": "N-Queens, N-Knights, Sudoku Solver (LeetCode) - Backtracking Questions",
+          "url": "https://www.youtube.com/watch?v=nC1rbW2YSz0&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=36&pp=iAQB"
+        },
+        {
+          "title": "OOP 1 | Introduction & Concepts - Classes, Objects, Constructors, Keywords",
+          "url": "https://www.youtube.com/watch?v=BSVKUk58K6U&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=37&pp=iAQB"
+        },
+        {
+          "title": "OOP 2 | Packages, Static, Singleton Class, In-built Methods",
+          "url": "https://www.youtube.com/watch?v=_Ya6CN13t8k&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=38&pp=iAQB"
+        },
+        {
+          "title": "OOP 3 | Principles - Inheritance, Polymorphism, Encapsulation, Abstraction",
+          "url": "https://www.youtube.com/watch?v=46T2wD3IuhM&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=39&pp=iAQB"
+        },
+        {
+          "title": "OOP 4 | Access Control, In-built Packages, Object Class",
+          "url": "https://www.youtube.com/watch?v=W145DXs8fFg&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=40&pp=iAQB"
+        },
+        {
+          "title": "OOP 5 | Abstract Classes, Interfaces, Annotations",
+          "url": "https://www.youtube.com/watch?v=rgHZa7-Dibg&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=41&pp=iAQB"
+        },
+        {
+          "title": "OOP 6 | Generics, Custom ArrayList, Lambda Expressions, Exception Handling, Object Cloning",
+          "url": "https://www.youtube.com/watch?v=OY2lPr8h93U&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=42&pp=iAQB"
+        },
+        {
+          "title": "OOP 7 | Collections Framework, Vector Class, Enums in Java",
+          "url": "https://www.youtube.com/watch?v=9ogGan-R1pc&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=43&pp=iAQB"
+        },
+        {
+          "title": "Linked List Tutorial - Singly + Doubly + Circular (Theory + Code + Implementation)",
+          "url": "https://www.youtube.com/watch?v=58YbpRDc4yw&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=44&pp=iAQB"
+        },
+        {
+          "title": "Linked List Interview Questions - Google, Facebook, Amazon, Microsoft",
+          "url": "https://www.youtube.com/watch?v=70tx7KcMROc&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=45&pp=iAQB"
+        },
+        {
+          "title": "Stacks and Queues Complete Tutorial - Theory + Implementation + Types (Dynamic, Circular)",
+          "url": "https://www.youtube.com/watch?v=rHQI4mrJ3cg&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=46&pp=iAQB"
+        },
+        {
+          "title": "Stacks and Queues Interview Questions - Google, Facebook, Amazon, Microsoft",
+          "url": "https://www.youtube.com/watch?v=S9LUYztYLu4&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=47&pp=iAQB"
+        },
+        {
+          "title": "Tic Tac Toe Java Game in Under 15 Minutes",
+          "url": "https://www.youtube.com/watch?v=jlLNXmi4Nmw&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=48&pp=iAQB"
+        },
+        {
+          "title": "Binary Trees Tutorial - Introduction + Traversals + Code | Binary Search Trees (BST)",
+          "url": "https://www.youtube.com/watch?v=4s1Tcvm00pA&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=49&pp=iAQB"
+        },
+        {
+          "title": "AVL Trees Tutorial | Self Balancing Binary Search Trees",
+          "url": "https://www.youtube.com/watch?v=CVA85JuJEn0&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=50&pp=iAQB"
+        },
+        {
+          "title": "Segment Trees Tutorial | Range Queries | Interview Questions",
+          "url": "https://www.youtube.com/watch?v=ciHThtTVNto&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=51&pp=iAQB"
+        },
+        {
+          "title": "StringBuffer in Java | Data Formatting | Working With Large Data",
+          "url": "https://www.youtube.com/watch?v=YFZai3fPUQI&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=52&pp=iAQB"
+        },
+        {
+          "title": "BigInteger & BigDecimal - Handling Large Numbers in Java",
+          "url": "https://www.youtube.com/watch?v=lHtoypC-4Ps&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=53&pp=iAQB"
+        },
+        {
+          "title": "File Handling in Java Complete Course",
+          "url": "https://www.youtube.com/watch?v=b35mlSPOlJg&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=54&pp=iAQB"
+        },
+        {
+          "title": "Binary Tree Questions for Technical Interviews - Google, Facebook, Amazon, Microsoft",
+          "url": "https://www.youtube.com/watch?v=9D-vP-jcc-Y&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=55&pp=iAQB"
+        },
+        {
+          "title": "Introduction to Heap Data Structure + Priority Queue + Heapsort Tutorial",
+          "url": "https://www.youtube.com/watch?v=Qf-TDPr0nYw&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=56&pp=iAQB"
+        },
+        {
+          "title": "Introduction to HashMap & HashTable in Java",
+          "url": "https://www.youtube.com/watch?v=XLbvmMz8Fr8&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=57&pp=iAQB"
+        },
+        {
+          "title": "Karp-Rabin String Matching Algorithm | Substring Search Pattern",
+          "url": "https://www.youtube.com/watch?v=swciWFPq3NE&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=58&pp=iAQB"
+        },
+        {
+          "title": "Count Sort Algorithm - Theory + Code",
+          "url": "https://www.youtube.com/watch?v=FOo820lJV1Y&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=59&pp=iAQB"
+        },
+        {
+          "title": "Radix Sort Algorithm - Theory + Code",
+          "url": "https://www.youtube.com/watch?v=mLi6VQDqAOs&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=60&pp=iAQB"
+        },
+        {
+          "title": "Huffman Coding Greedy Algorithm | Text Compression",
+          "url": "https://www.youtube.com/watch?v=XLfgeaYHinM&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=61&pp=iAQB"
+        },
+        {
+          "title": "Easily Solve Range Query Interview Problems with Square Root Decomposition/Mo's Algorithm",
+          "url": "https://www.youtube.com/watch?v=U4YmISZViSs&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=62&pp=iAQB"
+        },
+        {
+          "title": "Binary Tree from Preorder & Inorder Traversal - Advance Tree Questions",
+          "url": "https://www.youtube.com/watch?v=LFGBTFxHJII&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=63&pp=iAQB"
+        },
+        {
+          "title": "Vertical Order Traversal of a Binary Tree - Google Interview Question",
+          "url": "https://www.youtube.com/watch?v=Qdr3ohMSxBo&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=64&pp=iAQB"
+        },
+        {
+          "title": "Word Ladder - LeetCode Hard - Google Phone Screen Interview Question",
+          "url": "https://www.youtube.com/watch?v=2odLxQWYDi0&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=65&pp=iAQB"
+        },
+        {
+          "title": "Two Sum IV - Google, Amazon, Facebook Interview Question",
+          "url": "https://www.youtube.com/watch?v=oB1EIXIDS8s&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=66&pp=iAQB"
+        },
+        {
+          "title": "Kth Smallest Element in a BST - Google, Amazon, Facebook Interview Question",
+          "url": "https://www.youtube.com/watch?v=guzgnCSafg4&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=67&pp=iAQB"
+        },
+        {
+          "title": "Convert Binary Tree to Doubly Linked List - FAANG Interview Question",
+          "url": "https://www.youtube.com/watch?v=kNZ5VIkqReU&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=68&pp=iAQB"
+        },
+        {
+          "title": "Correct Binary Tree That Has Two Nodes Swapped - FAANG Interview Question",
+          "url": "https://www.youtube.com/watch?v=CxNRKTp6_9s&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=69&pp=iAQB"
+        }
+      ]
+    },
+    {
+      "playlistId": "PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr",
+      "name": "Java and DSA Foundation Course",
+      "videos": [
+        {
+          "title": "Introduction to Java | Java Architecture | Lecture 1 | Java and DSA Foundation Course",
+          "url": "https://www.youtube.com/watch?v=RJ733wzbNoA&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=1&pp=iAQB"
+        },
+        {
+          "title": "Java in One Shot | Revision - 1 | Output, Input, Variables, Operators | Java Course",
+          "url": "https://www.youtube.com/watch?v=Byf6xOYdNcw&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=2&pp=iAQB"
+        },
+        {
+          "title": "Visual Studio Code Installation on M1 Mac, Windows & Intel Mac | VS Code for Java, C & C++",
+          "url": "https://www.youtube.com/watch?v=VvYhfj2g4Zo&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=3&pp=iAQB"
+        },
+        {
+          "title": "IntelliJ Idea Installation | Lecture 2 | Java and DSA Foundation Course",
+          "url": "https://www.youtube.com/watch?v=FBTuKtGuAUY&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=4&pp=iAQB"
+        },
+        {
+          "title": "Variables & Input/Output in Java | Lecture 3 | Java and DSA Foundation Course",
+          "url": "https://www.youtube.com/watch?v=BQ5PwItzNBY&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=5&pp=iAQB"
+        },
+        {
+          "title": "Taking Input in Java : Scanner Class | Lecture 4 | Java and DSA Foundation Course",
+          "url": "https://www.youtube.com/watch?v=bprX1WB0HEw&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=6&pp=iAQB"
+        },
+        {
+          "title": "Operators in Java | Lecture 5 | Java and DSA Foundation Course",
+          "url": "https://www.youtube.com/watch?v=qydXBwQQfM8&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=7&pp=iAQB"
+        },
+        {
+          "title": "Bitwise Operators | Java and DSA Foundation Course",
+          "url": "https://www.youtube.com/watch?v=1ueMk6-Msng&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=8&pp=iAQB"
+        },
+        {
+          "title": "If Else in Java | Revision 2 | Java and DSA Course",
+          "url": "https://www.youtube.com/watch?v=DEsTnOBTM_8&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=9&pp=iAQB"
+        },
+        {
+          "title": "If Else & Switch Statement | Conditionals in Java | Lecture 6 | Java and DSA Foundation Course",
+          "url": "https://www.youtube.com/watch?v=b0iROJuA97g&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=10&pp=iAQB"
+        },
+        {
+          "title": "Loops in Java | For/While/Do-while | Lecture 7 | Java and DSA Foundation Course",
+          "url": "https://www.youtube.com/watch?v=eAPA7O6M8Gk&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=11&pp=iAQB"
+        },
+        {
+          "title": "Problems on Loops - Part 1 | Using Operators | Lecture 8 | Java and DSA Foundation Course",
+          "url": "https://www.youtube.com/watch?v=H-3OEn3Wz4E&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=12&pp=iAQB"
+        },
+        {
+          "title": "Problems on Loops - Part 2 | Pattern Printing Problems | Lecture 9 | Java and DSA Foundation Course",
+          "url": "https://www.youtube.com/watch?v=nxYY0PLtSmk&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=13&pp=iAQB"
+        },
+        {
+          "title": "Number Systems | Decimal & Binary | Lecture 10 | Java and DSA Foundation Course",
+          "url": "https://www.youtube.com/watch?v=U_SntCGtzDQ&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=14&pp=iAQB"
+        },
+        {
+          "title": "Introduction to OOPs | Classes and Objects | Lecture 11 | Java and DSA Foundation Course",
+          "url": "https://www.youtube.com/watch?v=YmJGs7AySM4&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=15&pp=iAQB"
+        },
+        {
+          "title": "Java Methods | Declaring and Calling Methods | Lecture 12 | Java and DSA Foundation Course",
+          "url": "https://www.youtube.com/watch?v=YoPbuJhFWHY&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=16&pp=iAQB"
+        },
+        {
+          "title": "Methods & Scope | Pass by Value & Pass by Reference | Lecture 13 | Java and DSA Foundation Course",
+          "url": "https://www.youtube.com/watch?v=dS2WgerE_cY&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=17&pp=iAQB"
+        },
+        {
+          "title": "Arrays | Types, Declaration, Creation, Operations | Lecture 14 | Java and DSA Foundation Course",
+          "url": "https://www.youtube.com/watch?v=YsBUVLGAS5g&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=18&pp=iAQB"
+        },
+        {
+          "title": "Arrays- 2| Taking Input, Array Reference, Cloning and Copy |Lecture 15| Java & DSA Foundation Course",
+          "url": "https://www.youtube.com/watch?v=FBGJ4m3OpZE&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=19&pp=iAQB"
+        },
+        {
+          "title": "Target Sum | Intermediate Coding Practice in Arrays | Lecture 16 | Java and DSA Foundation Course",
+          "url": "https://www.youtube.com/watch?v=Au9CAdI_Ihc&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=20&pp=iAQB"
+        },
+        {
+          "title": "Arrays 4 | Basic Problem Solving - 2 | Lecture 17 | Java and DSA Foundation Course",
+          "url": "https://www.youtube.com/watch?v=ODBaRTfZsDg&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=21&pp=iAQB"
+        },
+        {
+          "title": "Two Pointers | Advanced Problem Solving in Arrays | Lecture 18 | Java and DSA Foundation Course",
+          "url": "https://www.youtube.com/watch?v=FmXF2df9OVo&list=PLxgZQoSe9cg00xyG5gzb5BMkOClkch7Gr&index=22&pp=iAQB"
+        }
+      ]
+    },
+    {
+      "playlistId": "PLsyeobzWxl7qcjd9Cx7W7ViDQk9TcfUlQ",
+      "name": "Java For Programmers",
+      "videos": [
+        {
+          "title": "Course Introduction",
+          "url": "https://www.youtube.com/watch?v=3b-Wprhc_P8&list=PLsyeobzWxl7qcjd9Cx7W7ViDQk9TcfUlQ&index=1&pp=iAQB"
+        },
+        {
+          "title": "Getting used to Java",
+          "url": "https://www.youtube.com/watch?v=dI2GjHPrLJ4&list=PLsyeobzWxl7qcjd9Cx7W7ViDQk9TcfUlQ&index=2&pp=iAQBsAQB"
+        },
+        {
+          "title": "Java fundamentals",
+          "url": "https://www.youtube.com/watch?v=ypvdmJXaV1M&list=PLsyeobzWxl7qcjd9Cx7W7ViDQk9TcfUlQ&index=3&pp=iAQBsAQB"
+        },
+        {
+          "title": "Object Oriented Programming in Java",
+          "url": "https://www.youtube.com/watch?v=1NxzvMGCuWw&list=PLsyeobzWxl7qcjd9Cx7W7ViDQk9TcfUlQ&index=4&pp=iAQBsAQB"
+        },
+        {
+          "title": "How Java Works",
+          "url": "https://www.youtube.com/watch?v=hbX1ELIQ1rE&list=PLsyeobzWxl7qcjd9Cx7W7ViDQk9TcfUlQ&index=5&pp=iAQBsAQB"
+        },
+        {
+          "title": "String and Array",
+          "url": "https://www.youtube.com/watch?v=uUgZdvqOspk&list=PLsyeobzWxl7qcjd9Cx7W7ViDQk9TcfUlQ&index=6&pp=iAQBsAQB"
+        },
+        {
+          "title": "Packages and Access Modifiers in Java",
+          "url": "https://www.youtube.com/watch?v=NMccZNVI2Sw&list=PLsyeobzWxl7qcjd9Cx7W7ViDQk9TcfUlQ&index=7&pp=iAQBsAQB"
+        },
+        {
+          "title": "Abstract Class and Interface",
+          "url": "https://www.youtube.com/watch?v=69iYOoLP4GQ&list=PLsyeobzWxl7qcjd9Cx7W7ViDQk9TcfUlQ&index=8&pp=iAQBsAQB"
+        },
+        {
+          "title": "Exception Handling",
+          "url": "https://www.youtube.com/watch?v=gEQs1uzH4j4&list=PLsyeobzWxl7qcjd9Cx7W7ViDQk9TcfUlQ&index=9&pp=iAQBsAQB"
+        },
+        {
+          "title": "Collection API in Java",
+          "url": "https://www.youtube.com/watch?v=fTs_YKATgFk&list=PLsyeobzWxl7qcjd9Cx7W7ViDQk9TcfUlQ&index=10&pp=iAQBsAQB"
+        },
+        {
+          "title": "Threads in Java",
+          "url": "https://www.youtube.com/watch?v=-41EHhuybOQ&list=PLsyeobzWxl7qcjd9Cx7W7ViDQk9TcfUlQ&index=11&pp=iAQBsAQB"
+        }
+      ]
+    },
+    {
+      "playlistId": "PLSsAz5wf2lkK_ekd0J__44KG6QoXetZza",
+      "name": "Master React JS",
+      "videos": [
+        {
+          "title": "React JS Tutorial in Hindi | Introduction",
+          "url": "https://www.youtube.com/watch?v=Eqj7xSKiTlo&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=1&pp=iAQB"
+        },
+        {
+          "title": "Installing and Creating New React Application | Complete React Tutorial Series in Hindi",
+          "url": "https://www.youtube.com/watch?v=0GwwInGuS00&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=2&pp=iAQB"
+        },
+        {
+          "title": "Understanding the React Folder Structure and Boiler Plate Code | Complete React Series in Hindi",
+          "url": "https://www.youtube.com/watch?v=WxTqk7Lpri0&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=3&pp=iAQB"
+        },
+        {
+          "title": "React Components | What are Components? | Complete React Tutorial Series in Hindi",
+          "url": "https://www.youtube.com/watch?v=o1XAkj0B0l0&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=4&pp=iAQB"
+        },
+        {
+          "title": "React JSX | What is JSX? | Complete React Tutorial Series in Hindi",
+          "url": "https://www.youtube.com/watch?v=arqDThLA07M&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=5&pp=iAQB"
+        },
+        {
+          "title": "React Todo Application | Understanding Components and JSX | Complete React Tutorial Series in Hindi",
+          "url": "https://www.youtube.com/watch?v=scMHUq6E22Y&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=6&pp=iAQB"
+        },
+        {
+          "title": "Props in React | Why do we need Props? | Complete React Tutorial Series in Hindi",
+          "url": "https://www.youtube.com/watch?v=pYR5T3bGTOU&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=7&pp=iAQB"
+        },
+        {
+          "title": "React Hooks | Understanding Hooks and useState hook in React | Complete React Tutorial Series",
+          "url": "https://www.youtube.com/watch?v=LGl-R1DMnVc&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=8&pp=iAQB"
+        },
+        {
+          "title": "React useEffect | Understanding Hooks and useEffect hook in React | Complete React Tutorial Series",
+          "url": "https://www.youtube.com/watch?v=zW4dxX2-jM4&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=9&pp=iAQB"
+        },
+        {
+          "title": "Building Tic Tac Toe in ReactJS | React Tutorial Series | Complete React Tutorial Series in Hindi",
+          "url": "https://www.youtube.com/watch?v=pw2krTJLF6Y&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=10&pp=iAQB"
+        },
+        {
+          "title": "ReactJS Tutorial - How To Get Data From An API With React | Fetch API | ReactJS Tutorial in Hindi",
+          "url": "https://www.youtube.com/watch?v=JFBYU1JC_f4&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=11&pp=iAQB"
+        },
+        {
+          "title": "React Context API in One Video | ReactJS | ReactJS Tutorial In Hindi",
+          "url": "https://www.youtube.com/watch?v=73Tz6qTgNuU&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=12&pp=iAQB"
+        },
+        {
+          "title": "Weather Forecast App in ReactJS | ReactJS in Hindi | ReactJS ContextAPI and Fetch API",
+          "url": "https://www.youtube.com/watch?v=okgGVtuRM3s&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=13&pp=iAQB"
+        },
+        {
+          "title": "React Router | React Router DOM Tutorial in Hindi | #reactjs",
+          "url": "https://www.youtube.com/watch?v=Sng7wtlhWlw&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=14&pp=iAQB"
+        },
+        {
+          "title": "Meme Generator App - Build your own memes using React | React Meme Generator",
+          "url": "https://www.youtube.com/watch?v=2dYNCN7rfTE&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=15&pp=iAQB"
+        },
+        {
+          "title": "React Redux Tutorial | Learn Redux from Scratch",
+          "url": "https://www.youtube.com/watch?v=dOkkHHuFxjM&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=16&pp=iAQB"
+        },
+        {
+          "title": "How to make API call in React Redux Toolkit | React Redux Tutorial",
+          "url": "https://www.youtube.com/watch?v=2JBx_06dD1k&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=17&pp=iAQB"
+        },
+        {
+          "title": "Full Stack React & Firebase Tutorial | Firebase React Tutorial Series",
+          "url": "https://www.youtube.com/watch?v=-d5OHgw34g4&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=18&pp=iAQB"
+        },
+        {
+          "title": "What is Firebase? | ReactJS with Firebase Tutorial Hindi | Firebase React Tutorial Series",
+          "url": "https://www.youtube.com/watch?v=qBBWo1R5OC4&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=19&pp=iAQB"
+        },
+        {
+          "title": "How to Set Up A React and Firebase Project",
+          "url": "https://www.youtube.com/watch?v=DUzJObUzXV0&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=20&pp=iAQB"
+        },
+        {
+          "title": "Firebase Authentication with React | Firebase Authentication Tutorial | Firebase React Tutorial Series",
+          "url": "https://www.youtube.com/watch?v=O1zZgZ_Hj4k&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=21&pp=iAQB"
+        },
+        {
+          "title": "Firebase Google Authentication with React | Firebase Authentication React",
+          "url": "https://www.youtube.com/watch?v=e_FHXNxf_vI&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=22&pp=iAQB"
+        },
+        {
+          "title": "Firebase Firestore Database in React | Firebase Firestore React",
+          "url": "https://www.youtube.com/watch?v=5CTkDPbtt7g&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=23&pp=iAQB"
+        },
+        {
+          "title": "Firebase Firestore CRUD Operations in React | Firebase Firestore React",
+          "url": "https://www.youtube.com/watch?v=mdPfoPtF7Hs&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=24&pp=iAQB"
+        },
+        {
+          "title": "How to Upload Images in Firebase Storage | React Firebase",
+          "url": "https://www.youtube.com/watch?v=gtc2S9VeWps&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=25&pp=iAQB"
+        },
+        {
+          "title": "Building a Chat App with Firebase and React | Firebase React",
+          "url": "https://www.youtube.com/watch?v=8xSxA2D9IhM&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=26&pp=iAQB"
+        },
+        {
+          "title": "React Material UI | What is Material UI? | React Material UI Tutorial",
+          "url": "https://www.youtube.com/watch?v=KDw3l7k92mY&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=27&pp=iAQB"
+        },
+        {
+          "title": "Material UI Card and Typography in React | React Material UI Tutorial",
+          "url": "https://www.youtube.com/watch?v=2CfYwwGI_mU&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=28&pp=iAQB"
+        },
+        {
+          "title": "Material UI Form and Input in React | React Material UI Tutorial",
+          "url": "https://www.youtube.com/watch?v=UEnr5mRIMHQ&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=29&pp=iAQB"
+        },
+        {
+          "title": "Material UI Drawer and Sidebar in React | React Material UI Tutorial",
+          "url": "https://www.youtube.com/watch?v=K1x0AxUMmbU&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=30&pp=iAQB"
+        },
+        {
+          "title": "Material UI Grid System in React | React Material UI Tutorial",
+          "url": "https://www.youtube.com/watch?v=pM2cvHXUqOY&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=31&pp=iAQB"
+        },
+        {
+          "title": "Material UI Data Grid Component in React | React Material UI Tutorial",
+          "url": "https://www.youtube.com/watch?v=yRRVO_ytA1A&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=32&pp=iAQB"
+        },
+        {
+          "title": "React with TypeScript | What is TypeScript? | React TypeScript Tutorial",
+          "url": "https://www.youtube.com/watch?v=pQVOlqxBeH8&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=33&pp=iAQB"
+        },
+        {
+          "title": "React TypeScript State Management | React TypeScript Tutorial",
+          "url": "https://www.youtube.com/watch?v=eL7sS4ZTupk&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=34&pp=iAQB"
+        },
+        {
+          "title": "React TypeScript Props and Function Components | React TypeScript Tutorial",
+          "url": "https://www.youtube.com/watch?v=rzwC-rflUNg&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=35&pp=iAQB"
+        },
+        {
+          "title": "React TypeScript Interfaces and Types | React TypeScript Tutorial",
+          "url": "https://www.youtube.com/watch?v=jNOUvUIu0NU&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=36&pp=iAQB"
+        },
+        {
+          "title": "React TypeScript useRef Hook | React TypeScript Tutorial",
+          "url": "https://www.youtube.com/watch?v=-f8f1s-xNnM&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=37&pp=iAQB"
+        },
+        {
+          "title": "ReactJS with Styled Components | What is Styled Components? | Styled Components React",
+          "url": "https://www.youtube.com/watch?v=6pO1HNEeDac&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=38&pp=iAQB"
+        },
+        {
+          "title": "How to Build a Full Stack App with React and Node.js | React Node Full Stack App",
+          "url": "https://www.youtube.com/watch?v=GykTLqODQuU&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=39&pp=iAQB"
+        },
+        {
+          "title": "Deploying React Application to Firebase | React Firebase Deployment",
+          "url": "https://www.youtube.com/watch?v=xU_5VvSEFRw&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=40&pp=iAQB"
+        }
+      ]
+    },
+    {
+      "playlistId":"PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige",
+      "name":"React JS Tutorial",
+      "videos":[
+          {
+            "title": "React JS Tutorial in Hindi | Introduction",
+            "url": "https://www.youtube.com/watch?v=Eqj7xSKiTlo&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=1&pp=iAQB"
+          },
+          {
+            "title": "Installing and Creating New React Application | Complete React Tutorial Series in Hindi",
+            "url": "https://www.youtube.com/watch?v=0GwwInGuS00&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=2&pp=iAQB"
+          },
+          {
+            "title": "Understanding the React Folder Structure and Boiler Plate Code | Complete React Series in Hindi",
+            "url": "https://www.youtube.com/watch?v=WxTqk7Lpri0&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=3&pp=iAQB"
+          },
+          {
+            "title": "React Components | What are Components? | Complete React Tutorial Series in Hindi",
+            "url": "https://www.youtube.com/watch?v=o1XAkj0B0l0&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=4&pp=iAQB"
+          },
+          {
+            "title": "React JSX | What is JSX? | Complete React Tutorial Series in Hindi",
+            "url": "https://www.youtube.com/watch?v=arqDThLA07M&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=5&pp=iAQB"
+          },
+          {
+            "title": "React Todo Application | Understanding Components and JSX |Complete React Tutorial Series in Hindi",
+            "url": "https://www.youtube.com/watch?v=scMHUq6E22Y&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=6&pp=iAQB"
+          },
+          {
+            "title": "Props in React | Why do we need Props? | Complete React Tutorial Series in Hindi",
+            "url": "https://www.youtube.com/watch?v=pYR5T3bGTOU&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=7&pp=iAQB"
+          },
+          {
+            "title": "React Hooks | Understanding Hooks and useState hook in React | Complete React Tutorial Series",
+            "url": "https://www.youtube.com/watch?v=LGl-R1DMnVc&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=8&pp=iAQB"
+          },
+          {
+            "title": "React useEffect | Understanding Hooks and useEffect hook in React | Complete React Tutorial Series",
+            "url": "https://www.youtube.com/watch?v=zW4dxX2-jM4&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=9&pp=iAQB"
+          },
+          {
+            "title": "Building Tic Tac Toe in ReactJS | React Tutorial Series | Complete React Tutorial Series in Hindi",
+            "url": "https://www.youtube.com/watch?v=pw2krTJLF6Y&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=10&pp=iAQB"
+          },
+          {
+            "title": "ReactJS Tutorial - How To Get Data From An API With React | Fetch API | ReactJS Tutorial in Hindi",
+            "url": "https://www.youtube.com/watch?v=JFBYU1JC_f4&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=11&pp=iAQB"
+          },
+          {
+            "title": "React Context API in One Video | ReactJS | ReactJS Tutorial In Hindi",
+            "url": "https://www.youtube.com/watch?v=73Tz6qTgNuU&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=12&pp=iAQB"
+          },
+          {
+            "title": "Weather Forecast App in ReactJS | ReactJS in Hindi | ReactJS ContextAPI and Fetch API",
+            "url": "https://www.youtube.com/watch?v=okgGVtuRM3s&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=13&pp=iAQB"
+          },
+          {
+            "title": "React Router | React Router DOM Tutorial in Hindi | #reactjs",
+            "url": "https://www.youtube.com/watch?v=Sng7wtlhWlw&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=14&pp=iAQB"
+          },
+          {
+            "title": "Meme Generator App - Build your own memes using React | React Meme Generator",
+            "url": "https://www.youtube.com/watch?v=2dYNCN7rfTE&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=15&pp=iAQB"
+          },
+          {
+            "title": "React Redux Tutorial | Learn Redux from Scratch",
+            "url": "https://www.youtube.com/watch?v=dOkkHHuFxjM&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=16&pp=iAQB"
+          },
+          {
+            "title": "How to make API call in React Redux Toolkit | React Redux Tutorial",
+            "url": "https://www.youtube.com/watch?v=2JBx_06dD1k&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=17&pp=iAQB"
+          },
+          {
+            "title": "Full Stack React & Firebase Tutorial | Firebase React Tutorial Series",
+            "url": "https://www.youtube.com/watch?v=-d5OHgw34g4&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=18&pp=iAQB"
+          },
+          {
+            "title": "What is Firebase? | ReactJS with Firebase Tutorial Hindi | Firebase React Tutorial Series",
+            "url": "https://www.youtube.com/watch?v=qBBWo1R5OC4&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=19&pp=iAQB"
+          },
+          {
+            "title": "How to Set Up A React and Firebase Project",
+            "url": "https://www.youtube.com/watch?v=DUzJObUzXV0&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=20&pp=iAQB"
+          },
+          {
+            "title": "Authentication in Firebase | Firebase React Authentication | Firebase React Series Hindi",
+            "url": "https://www.youtube.com/watch?v=zlBUyfkzMZQ&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=21&pp=iAQB"
+          },
+          {
+            "title": "Login with Firebase and React | Firebase Authentication | Firebase and Reactjs Series Hindi",
+            "url": "https://www.youtube.com/watch?v=pSoP1ybJgW0&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=22&pp=iAQB"
+          },
+          {
+            "title": "Correct way of using Firebase in Reactjs Application | Firebase Tutorials | Firebase React Series",
+            "url": "https://www.youtube.com/watch?v=-N2FrYA8khY&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=23&pp=iAQB"
+          },
+          {
+            "title": "Firebase Google Authentication React | Firebase Authentication with Google | Firebase React",
+            "url": "https://www.youtube.com/watch?v=eY1XnXEYRko&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=24&pp=iAQB"
+          },
+          {
+            "title": "Getting Logged in User in Firebase | Firebase Authentication Reactjs | Firebase React Series",
+            "url": "https://www.youtube.com/watch?v=pngnEWGyDwE&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=25&pp=iAQB"
+          },
+          {
+            "title": "Getting Started with Firebase Firestore | Cloud Firestore | Firebase React Tutorial",
+            "url": "https://www.youtube.com/watch?v=-4g7henIRU8&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=26&pp=iAQB"
+          },
+          {
+            "title": "How to Add Data to Firestore Database | Firebase Firestore Tutorial in React",
+            "url": "https://www.youtube.com/watch?v=WoHwe3WtsK4&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=27&pp=iAQB"
+          },
+          {
+            "title": "Retrieve Data from Firebase Firestore | Firebase Firestore in React | Firebase React Series",
+            "url": "https://www.youtube.com/watch?v=oU6UafIuPQg&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=28&pp=iAQB"
+          },
+          {
+            "title": "React and Firebase Realtime Database | Getting Started with Firebase Realtime Database",
+            "url": "https://www.youtube.com/watch?v=gu2i-VXrfvE&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=29&pp=iAQB"
+          },
+          {
+            "title": "Get Data from Firebase Realtime Database | Firebase React Series",
+            "url": "https://www.youtube.com/watch?v=sFIPDDuQWiw&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=30&pp=iAQB"
+          },
+          {
+            "title": "Update Data in Firebase Realtime Database | Firebase React Series",
+            "url": "https://www.youtube.com/watch?v=IM7c9Y3K9Dg&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=31&pp=iAQB"
+          },
+          {
+            "title": "React and Firebase Deployment | How to Deploy React App with Firebase Hosting",
+            "url": "https://www.youtube.com/watch?v=6QVo9tADz1A&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=32&pp=iAQB"
+          },
+          {
+            "title": "Deploying React App with Firebase Hosting | Firebase Hosting Tutorial in Hindi",
+            "url": "https://www.youtube.com/watch?v=KDCEZ2UABrM&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=33&pp=iAQB"
+          },
+          {
+            "title": "Firebase Firestore Security Rules | Firebase Security Rules | Firebase Firestore",
+            "url": "https://www.youtube.com/watch?v=wB3SjS7cGV8&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=34&pp=iAQB"
+          },
+          {
+            "title": "Firebase Authentication Security Rules | Firebase Security Rules",
+            "url": "https://www.youtube.com/watch?v=49sWZnCRr8w&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=35&pp=iAQB"
+          },
+          {
+            "title": "React and Firebase Full Project | Complete React Project with Firebase",
+            "url": "https://www.youtube.com/watch?v=fNuEn8ZchU0&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=36&pp=iAQB"
+          },
+          {
+            "title": "What is TypeScript? | React with TypeScript | Complete TypeScript in Hindi",
+            "url": "https://www.youtube.com/watch?v=d6T_fUT1y8E&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=37&pp=iAQB"
+          },
+          {
+            "title": "React with TypeScript | Setting Up TypeScript in React",
+            "url": "https://www.youtube.com/watch?v=mS8kO46A7uU&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=38&pp=iAQB"
+          },
+          {
+            "title": "React and TypeScript | Understanding Props in TypeScript | React TypeScript Tutorial",
+            "url": "https://www.youtube.com/watch?v=IopA7ZV7lDQ&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=39&pp=iAQB"
+          },
+          {
+            "title": "React and TypeScript | Understanding State in TypeScript | React TypeScript Tutorial",
+            "url": "https://www.youtube.com/watch?v=W2EDUg_7Q9w&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=40&pp=iAQB"
+          },
+          {
+            "title": "React Performance Optimization | Improving React App Performance",
+            "url": "https://www.youtube.com/watch?v=3fhf8nXsw30&list=PLinedj3B30sCHqHtgbjg1lSYgWebm1dyI&index=41&pp=iAQB"
+          }
+        ]      
+    }
+  ]
+}

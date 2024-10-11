@@ -1,0 +1,121 @@
+{
+    "CSE": {
+      "courses": [
+        {
+          "name": "Python",
+          "description": "Learn Python programming from basics to advanced.",
+          "duration": "40 hours",
+          "level": "Beginner to Advanced",
+          "imgUrl":"https://miro.medium.com/v2/resize:fit:700/1*3IcLSFuT8PQg4cUBaRXH1A.png"
+        },
+        {
+          "name": "Java",
+          "description": "Comprehensive Java programming course.",
+          "duration": "50 hours",
+          "level": "Intermediate",
+            "imgUrl":"https://www.macworld.com/wp-content/uploads/2023/01/learn_java_on_mac.jpg?quality=50&strip=all"
+        },
+        {
+          "name": "React",
+          "description": "Front-end development with React.",
+          "duration": "35 hours",
+          "level": "Intermediate to Advanced",
+            "imgUrl":"https://media.licdn.com/dms/image/D4E12AQFAnM7JNyFDQg/article-cover_image-shrink_720_1280/0/1708148800306?e=2147483647&v=beta&t=YVyEgQPbE7DUjDtMEQ5DBs_NUxWX_z6mWn72IqCH03Q"
+        },
+        {
+            "name": "Web Development",
+            "description": "Full stack web development with MERN stack.",
+            "duration": "60 hours",
+            "level": "Intermediate",
+            "imgUrl":"https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg"
+          },
+          {
+            "name": "Cybersecurity",
+            "description": "Fundamentals of cybersecurity.",
+            "duration": "40 hours",
+            "level": "Beginner",
+              "imgUrl":"https://img.freepik.com/free-photo/3d-internet-secuirty-badge_1048-18106.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1725580800&semt=ais_hybrid"
+          },
+          {
+            "name": "Cloud Computing",
+            "description": "Learn cloud technologies like AWS and GCP.",
+            "duration": "50 hours",
+            "level": "Intermediate",
+            "imgUrl":"https://t4.ftcdn.net/jpg/05/07/66/23/360_F_507662376_BTKmPlIGBvKlRHWKRNeFt7bj7H2SynQm.jpg"
+          }
+      ]
+    },
+    "ME": {
+      "courses": [
+        {
+          "name": "Thermodynamics",
+          "description": "Fundamentals of thermodynamics for mechanical engineers.",
+          "duration": "30 hours",
+          "level": "Beginner",
+          "imgUrl":"https://img.jagranjosh.com/imported/images/E/Articles/WBJEE_Thermodynamics_2018_media.jpg"
+        },
+        {
+          "name": "Fluid Mechanics",
+          "description": "Introduction to fluid mechanics concepts.",
+          "duration": "45 hours",
+          "level": "Intermediate",
+          "imgUrl":"https://images.theengineeringprojects.com/image/main/2022/09/introduction-to-fluid-mechanics-1.jpg"
+        },
+        {
+          "name": "SolidWorks",
+          "description": "3D CAD modeling using SolidWorks.",
+          "duration": "25 hours",
+          "level": "Beginner to Intermediate",
+          "imgUrl":"https://blog-assets.solidworks.com/uploads/sites/2/2022/09/save20assemblies20faster20sw20top201020sept2622.png"
+        }
+      ]
+    },
+    "CE": {
+      "courses": [
+        {
+          "name": "Structural Engineering",
+          "description": "Learn structural analysis and design.",
+          "duration": "40 hours",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Surveying",
+          "description": "Techniques and tools used in surveying.",
+          "duration": "35 hours",
+          "level": "Beginner"
+        },
+        {
+          "name": "AutoCAD",
+          "description": "Learn AutoCAD for civil engineers.",
+          "duration": "30 hours",
+          "level": "Beginner to Intermediate"
+        }
+      ]
+    },
+    "IT": {
+      "courses": [
+        {
+          "name": "Web Development",
+          "description": "Full stack web development with MERN stack.",
+          "duration": "60 hours",
+          "level": "Intermediate",
+          "imgUrl":"https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg"
+        },
+        {
+          "name": "Cybersecurity",
+          "description": "Fundamentals of cybersecurity.",
+          "duration": "40 hours",
+          "level": "Beginner",
+            "imgUrl":"https://img.freepik.com/free-photo/3d-internet-secuirty-badge_1048-18106.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1725580800&semt=ais_hybrid"
+        },
+        {
+          "name": "Cloud Computing",
+          "description": "Learn cloud technologies like AWS and GCP.",
+          "duration": "50 hours",
+          "level": "Intermediate",
+          "imgUrl":"https://t4.ftcdn.net/jpg/05/07/66/23/360_F_507662376_BTKmPlIGBvKlRHWKRNeFt7bj7H2SynQm.jpg"
+        }
+      ]
+    }
+  }
+  

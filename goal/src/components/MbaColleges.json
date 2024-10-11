@@ -1,0 +1,256 @@
+{
+    "MbaColleges":[
+        {
+            "name": "Indian Institute of Management (IIM) Ahmedabad",
+            "location": "Ahmedabad, Gujarat",
+            "courses_offered": [
+              "MBA",
+              "PGP",
+              "PhD"
+            ],
+            "admission_process": {
+              "MBA": {
+                "entrance_exam": "CAT",
+                "eligibility": "Bachelor's degree with 50% (General) / 45% (SC/ST)"
+              }
+            },
+            "important_dates": {
+              "cat_application": "August 2024",
+              "interview_call_dates": "January 2025"
+            },
+            "fee_structure": {
+              "mba": "INR 23,00,000 for the full course"
+            },
+            "scholarships": [
+              "Need-based scholarships",
+              "Government and alumni-funded scholarships"
+            ],
+            "placement_records": {
+              "average_package": "INR 30 LPA",
+              "highest_package": "INR 1 Cr PA",
+              "top_recruiters": ["McKinsey", "BCG", "Goldman Sachs", "Amazon"]
+            },
+            "facilities": [
+              "Library",
+              "Hostels",
+              "Sports Facilities",
+              "Auditorium",
+              "Incubation Centre"
+            ],
+            "important_urls": {
+              "official_website": "https://www.iima.ac.in",
+              "admission_link": "https://www.iima.ac.in/web/admissions"
+            }
+          },
+            {
+                "name": "Indian Institute of Management (IIM) Bangalore",
+                "location": "Bangalore, Karnataka",
+                "courses_offered": [
+                "MBA",
+                "PGP",
+                "PhD"
+                ],
+                "admission_process": {
+                "MBA": {
+                    "entrance_exam": "CAT",
+                    "eligibility": "Bachelor's degree with 50% (General) / 45% (SC/ST)"
+                }
+                },
+                "important_dates": {
+                "cat_application": "August 2024",
+                "interview_call_dates": "January 2025"
+                },
+                "fee_structure": {
+                "mba": "INR 23,00,000 for the full course"
+                },
+                "scholarships": [
+                "Need-based scholarships",
+                "Government and alumni-funded scholarships"
+                ],
+                "placement_records": {
+                "average_package": "INR 30 LPA",
+                "highest_package": "INR 1 Cr PA",
+                "top_recruiters": ["McKinsey", "BCG", "Goldman Sachs", "Amazon"]
+                },
+                "facilities": [
+                "Library",
+                "Hostels",
+                "Sports Facilities",
+                "Auditorium",
+                "Incubation Centre"
+                ],
+                "important_urls": {
+                "official_website": "https://www.iimb.ac.in",
+                "admission_link": "https://www.iimb.ac.in/web/admissions"
+                }
+            },
+            {
+                "name": "Indian Institute of Management (IIM) Calcutta",
+                "location": "Kolkata, West Bengal",
+                "courses_offered": [
+                "MBA",
+                "PGP",
+                "PhD"
+                ],
+                "admission_process": {
+                "MBA": {
+                    "entrance_exam": "CAT",
+                    "eligibility": "Bachelor's degree with 50% (General) / 45% (SC/ST)"
+                }
+                },
+                "important_dates": {
+                "cat_application": "August 2024",
+                "interview_call_dates": "January 2025"
+                },
+                "fee_structure": {
+                "mba": "INR 23,00,000 for the full course"
+                },
+                "scholarships": [
+                "Need-based scholarships",
+                "Government and alumni-funded scholarships"
+                ],
+                "placement_records": {
+                "average_package": "INR 30 LPA",
+                "highest_package": "INR 1 Cr PA",
+                "top_recruiters": ["McKinsey", "BCG", "Goldman Sachs", "Amazon"]
+                },
+                "facilities": [
+                "Library",
+                "Hostels",
+                "Sports Facilities",
+                "Auditorium",
+                "Incubation Centre"
+                ],
+                "important_urls": {
+                "official_website": "https://www.iimcal.ac.in",
+                "admission_link": "https://www.iimcal.ac.in/programs/pgp/admissions"
+                }
+            },
+            {
+                "name": "Indian Institute of Management (IIM) Lucknow",
+                "location": "Lucknow, Uttar Pradesh",
+                "courses_offered": [
+                "MBA",
+                "PGP",
+                "PhD"
+                ],
+                "admission_process": {
+                "MBA": {
+                    "entrance_exam": "CAT",
+                    "eligibility": "Bachelor's degree with 50% (General) / 45% (SC/ST)"
+                }
+                },
+                "important_dates": {
+                "cat_application": "August 2024",
+                "interview_call_dates": "January 2025"
+                },
+                "fee_structure": {
+                "mba": "INR 23,00,000 for the full course"
+                },
+                "scholarships": [
+                "Need-based scholarships",
+                "Government and alumni-funded scholarships"
+                ],
+                "placement_records": {
+                "average_package": "INR 30 LPA",
+                "highest_package": "INR 1 Cr PA",
+                "top_recruiters": ["McKinsey", "BCG", "Goldman Sachs", "Amazon"]
+                },
+                "facilities": [
+                "Library",
+                "Hostels",
+                "Sports Facilities",
+                "Auditorium",
+                "Incubation Centre"
+                ],
+                "important_urls": {
+                "official_website": "https://www.iiml.ac.in",
+                "admission_link": "https://www.iiml.ac.in/pgp/admission"
+                }
+            },
+            {
+                "name": "Indian Institute of Management (IIM) Kozhikode",
+                "location": "Kozhikode, Kerala",
+                "courses_offered": [
+                "MBA",
+                "PGP",
+                "PhD"
+                ],
+                "admission_process": {
+                "MBA": {
+                    "entrance_exam": "CAT",
+                    "eligibility": "Bachelor's degree with 50% (General) / 45% (SC/ST)"
+                }
+                },
+                "important_dates": {
+                "cat_application": "August 2024",
+                "interview_call_dates": "January 2025"
+                },
+                "fee_structure": {
+                "mba": "INR 23,00,000 for the full course"
+                },
+                "scholarships": [
+                "Need-based scholarships",
+                "Government and alumni-funded scholarships"
+                ],
+                "placement_records": {
+                "average_package": "INR 30 LPA",
+                "highest_package": "INR 1 Cr PA",
+                "top_recruiters": ["McKinsey", "BCG", "Goldman Sachs", "Amazon"]
+                },
+                "facilities": [
+                "Library",
+                "Hostels",
+                "Sports Facilities",
+                "Auditorium",
+                "Incubation Centre"
+                ],
+                "important_urls": {
+                "official_website": "https://www.iimk.ac.in",
+                "admission_link": "https://www.iimk.ac.in/academics/pgp/admissions"
+                }
+            },
+            {
+                "name": "Indian Institute of Management (IIM) Indore",
+                "location": "Indore, Madhya Pradesh",
+                "courses_offered": [
+                "MBA",
+                "PGP",
+                "PhD"
+                ],
+                "admission_process": {
+                "MBA": {
+                    "entrance_exam": "CAT",
+                    "eligibility": "Bachelor's degree with 50% (General) / 45% (SC/ST)"
+                }
+                },
+                "important_dates": {
+                "cat_application": "August 2024",
+                "interview_call_dates": "January 2025"
+                },
+                "fee_structure": {
+                "mba": "INR 23,00,000 for the full course"
+                },
+                "scholarships": [
+                "Need-based scholarships",
+                "Government and alumni-funded scholarships"
+                ],
+                "placement_records": {
+                "average_package": "INR 30 LPA",
+                "highest_package": "INR 1 Cr PA",
+                "top_recruiters": ["McKinsey", "BCG", "Goldman Sachs", "Amazon"]
+                },
+                "facilities": [
+                "Library",
+                "Hostels",
+                "Sports Facilities",
+                "Auditorium",
+                "Incubation Centre"
+                ],
+                "important_urls": {
+                "official_website": "https://www.iimidr.ac.in",
+                "admission_link": "https://www.iimidr.ac.in/programmes/pgp/admissions"
+                }
+            }
+        ]    
+}

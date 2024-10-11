@@ -1,0 +1,154 @@
+.main {
+    margin-left: 286px;
+    margin-top: 110px;
+}
+
+.content {
+    padding: 10px;
+    padding-top: 20px;
+    position: absolute;
+    top: 105px;
+    bottom: 8px;
+    right: 8px;
+    left: 295px;
+    /* padding: 10px; */
+    overflow: auto;
+    background-color: #212529;
+    border-radius: 10px;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+.filterCollege {
+    margin: 20px 0;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 300px;
+}
+
+.filterCollege i {
+    position: absolute;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #f0a500;
+    transition: color 0.3s;
+}
+
+/* Input field initially hidden and narrow */
+.filterCollege input {
+    padding: 15px 20px;
+    padding-left: 30px;
+    width: 40%;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    transition: width 0.4s ease, opacity 0.4s ease;
+    font-size: 1rem;
+    color: #faf2f2;
+    background-color: #1c1e21;
+    box-shadow: 
+    0px 3.26px 3.26px 0px #FFFFFF26 inset, /* First inset shadow */
+    0px 0px 48.91px 0px #FFFFFF0D inset,  /* Second inset shadow */
+    9px 10px 7.1px 0px #00000066,         /* Outer shadow */
+    -0.5px -0.5px 6.9px 0px #FFFFFF40;
+}
+
+.filterCollege input::placeholder {
+    color: #8e8e8e;
+}
+
+.filterCollege input:focus {
+    width: 100%;
+}
+
+.contentChild {
+    /* grid of cards */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 25px;
+    padding: 10px;
+}
+
+.collegeCard {
+    /* card */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.3s;
+    color: white;
+    transition: transform 0.2s ease-in-out 0s;
+    background-color: #1c1e21;
+    border-radius: 12px;
+    color: #ffffff;
+    padding: 20px;
+    /* box-shadow: 0 0px 5px rgba(177, 177, 177, 0.724); */
+    box-shadow: 
+    0px 3.26px 3.26px 0px #FFFFFF26 inset, /* First inset shadow */
+    0px 0px 48.91px 0px #FFFFFF0D inset,  /* Second inset shadow */
+    9px 10px 7.1px 0px #00000066,         /* Outer shadow */
+    -0.5px -0.5px 6.9px 0px #FFFFFF40;    /* Light outer shadow */
+}
+
+.collegeCard:hover {
+    transform:  scale(1.03);
+
+}
+
+.collegeCard div ul li strong::after{
+    display: none;
+}
+
+.collegeCard strong {
+    line-height: 1.9;
+    color: #f0a500;
+    font-size: 1.1rem;
+    position: relative;
+    /* text-shadow: 2px 2px 4px #000000; */
+}
+
+.collegeCard strong::after{
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 3px;
+    background-color: #f0a500;
+    bottom: -4px;
+    left: 0;
+    border-radius: 4px;
+}
+
+.collegeCard p, .collegeCard div ul li {
+    font-size: 0.9rem;
+    color: #d3d3d3;
+    /* text-shadow: 2px 2px 4px #000000; */
+}
+.collegeCard h2{
+    font-size: 1.4rem;
+    /* text-shadow: 2px 2px 4px #000000; */
+}
+.admission{
+    padding: 10px;
+    background-color: #0056b3;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px auto;
+    width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+      left: 8px;
+      bottom: 68px;
+      padding: 10px;
+    }
+  
+    .main {
+      bottom: 68px;
+    }
+}

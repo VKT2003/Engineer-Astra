@@ -1,0 +1,304 @@
+.main{
+    margin-left: 286px;
+    margin-top: 110px;
+}
+
+.content{
+    position: absolute;
+    top:105px;
+    bottom: 8px;
+    right: 8px;
+    left: 295px;
+    /* padding: 10px; */
+    overflow: auto;
+    background-color: #212529;
+    border-radius: 10px;
+}
+
+.content::-webkit-scrollbar{
+    display: none;
+}
+
+.content h2{
+    color: white;
+    text-align: center;
+    font-size: 34px;
+}
+
+.cardsContainer{
+    display: flex;
+    gap: 20px;
+    margin: 8px;
+}
+
+.youtube{
+    border-radius: 10px;
+    width: 60%;
+}
+
+.youtube iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.playlist{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    border: 1px solid rgb(112, 112, 112);
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.header{
+    background-color: #1e2124;
+    padding: 10px;
+}
+
+.header h3{
+    color: white;
+    font-size: 1.2rem;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.header p{
+    color: #ccc;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.playlistVideos{
+    background-color: #131313;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.playlistVideos::-webkit-scrollbar{
+    width: 16px;
+}
+
+.playlistVideos::-webkit-scrollbar-thumb{
+    background-color: #333;
+    height: 56px;
+    border-radius: 8px;
+    border: 4px solid transparent;
+    background-clip: content-box;
+}
+
+.playlistVideos::-webkit-scrollbar-track{
+    background-color: #000;
+    border-radius: 8px;
+}
+
+.playlistVideosList{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.playlistVideosList:hover,.activeLink{
+    background-color: #1e2124;
+    cursor: pointer;
+}
+
+.index{
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playlist::-webkit-scrollbar{
+    display: none;
+}
+
+.cardImage{
+    width: 100px;
+    height: 65px;
+    border-radius: 10px;
+}
+
+.cardImage img{
+    width: 100px;
+    height: 65px;
+    border-radius: 10px;
+}
+
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 250px;
+    height: 65px;
+}
+
+.cardContent h4{
+    margin: 0;
+    font-size: 0.8rem;
+    display: -webkit-box;              /* Flexible box model */
+    -webkit-box-orient: vertical;      /* Set the orientation to vertical */
+    -webkit-line-clamp: 2;             /* Limit the text to 3 lines */
+    overflow: hidden;                  /* Hide the overflow text */
+    text-overflow: ellipsis;           /* Show ellipsis at the end of truncated content */
+    line-height: 1.5em;                /* Adjust the line height (1.5em in this case) */
+    max-height: 4.5em; 
+}
+
+.cardContent a{
+    color: #666;
+    text-decoration: none;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.completed{
+    width: 24px;
+}
+
+.notCompleted div, .completed div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    outline: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    position: relative;
+}
+
+.completed div{
+    outline: 2px solid rgb(30, 142, 62);
+    background-color: rgb(30, 142, 62);
+}
+
+.completed div::after{
+    position: absolute;
+    content: "✓";
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1100px) {
+    .cardImage{
+        width: 80px;
+        height: 50px;
+    }
+
+    .cardImage img{
+        width: 80px;
+        height: 50px;
+    }
+
+    .cardContent{
+        width: calc(100% - 80px);
+        height: 50px;
+    }
+
+    .cardContent h4{
+        font-size: 0.6rem;
+    }
+
+    .cardContent a{
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .cardsContainer{
+        flex-direction: column;
+    }
+
+    .youtube{
+        width: 100%;
+        min-height: 400px;
+    }
+
+    .youtube iframe{
+        width: 100%;
+        height: 100%;
+        min-height: 400px;
+    }
+
+    .playlist{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        left: 8px;
+        bottom: 68px;
+    }
+
+    .main {
+        bottom: 68px;
+    }
+    .cardsContainer{
+        flex-direction: column;
+    }
+
+    .youtube{
+        width: 100%;
+        min-height: 400px;
+    }
+
+    .youtube iframe{
+        width: 100%;
+        height: 100%;
+        min-height: 400px;
+    }
+
+    .playlist{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .content {
+        left: 8px;
+        bottom: 68px;
+    }
+
+    .main {
+        bottom: 68px;
+    }
+
+    .cardsContainer{
+        flex-direction: column;
+    }
+
+    .youtube{
+        width: 100%;
+        min-height: 250px;
+        max-height: 250px;
+    }
+
+    .youtube iframe{
+        width: 100%;
+        height: 100%;
+        min-height: 250px;
+    }
+
+    .playlist{
+        width: 100%;
+        height: 100%;
+    }
+}

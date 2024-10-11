@@ -1,0 +1,65 @@
+{
+    "courseCategories": [
+      {
+        "id": "1",
+        "categoryName": "Computer Science and Engineering (CSE)",
+        "description": "Courses related to the study of computer systems, software, and hardware.",
+        "imageUrl": "https://ahalia.ac.in/wp-content/uploads/2020/01/CSE1-1024x447.jpg"
+      },
+      {
+        "id": "2",
+        "categoryName": "Mechanical Engineering (ME)",
+        "description": "Courses focused on the design, analysis, manufacturing, and maintenance of mechanical systems.",
+        "imageUrl": "https://www.discoverengineering.org/wp-content/uploads/2023/12/mj_11235_4.jpg"
+      },
+      {
+        "id": "10",
+        "categoryName": "Information Technology (IT)",
+        "description": "Courses related to the use and management of information systems and technologies.",
+        "imageUrl": "https://t4.ftcdn.net/jpg/03/14/92/75/360_F_314927575_yqFMAuXFTNC6gBflR2njRZ4bQb8dAb7y.jpg"
+      },
+      {
+        "id": "3",
+        "categoryName": "Civil Engineering (CE)",
+        "description": "Courses dealing with the design, construction, and maintenance of infrastructure such as roads, bridges, and buildings.",
+        "imageUrl": "https://thumbs.dreamstime.com/b/innovative-architecture-civil-engineering-plan-building-construction-project-creative-graphic-design-showing-concept-174256642.jpg"
+      },
+      {
+        "id": "4",
+        "categoryName": "Electrical Engineering (EE)",
+        "description": "Courses involving the study of electrical systems, electronics, and electromagnetism.",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI83i8e0M3LhBrM4ccviT_Jwpe6bFIsZGLeQ&s"
+      },
+      {
+        "id": "5",
+        "categoryName": "Chemical Engineering (ChE)",
+        "description": "Courses related to the design and operation of chemical processes and equipment.",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkd4XRYn6Cel_D_CMjrcnU95K5awNP02nD1A&s"
+      },
+      {
+        "id": "6",
+        "categoryName": "Biotechnology",
+        "description": "Courses combining biological sciences with engineering principles to develop technologies and products.",
+        "imageUrl": "https://i0.wp.com/explorebiotech.com/wp-content/uploads/2023/09/biotechnology-engineering.jpg?fit=500%2C300&ssl=1"
+      },
+      {
+        "id": "7",
+        "categoryName": "Aerospace Engineering",
+        "description": "Courses focused on the development and design of aircraft and spacecraft.",
+        "imageUrl": "https://www.planitplus.net/JobProfileImages/69.png"
+      },
+      {
+        "id": "8",
+        "categoryName": "Environmental Engineering",
+        "description": "Courses dealing with the protection and improvement of environmental quality through engineering practices.",
+        "imageUrl": "https://happenings.lpu.in/wp-content/uploads/2024/01/Scope-of-Environmental-Engineering.jpg"
+      },
+      {
+        "id": "9",
+        "categoryName": "Industrial Engineering",
+        "description": "Courses aimed at optimizing complex processes, systems, or organizations.",
+        "imageUrl": "https://media.myklassroom.com/mkm_webroot/branch_images/28.jpg"
+      }
+    ]
+  }
+  
