@@ -1,6 +1,7 @@
 import React, { useState,useEffect } from 'react';
 import styles from '../styles/Home.module.css';
 import Navbar from './Navbar';
+import { Helmet } from 'react-helmet';
 import collegeData from './college.json'
 
 const Home = () => {
@@ -24,8 +25,26 @@ const Home = () => {
 
   return (
     <div className={styles.main}>
+      <Helmet>
+        <title>Engineer Astra - Find Top Colleges in India</title>
+        <meta name="description" content="Explore top engineering colleges in India based on your JEE rank and 12th percentage. Find admission details, course fees, placements, and more." />
+        <meta name="keywords" content="engineering colleges, JEE rank, admission, India, 12th percentage, college finder, placements, courses" />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "http://schema.org",
+              "@type": "EducationalOrganization",
+              "name": "Engineer Astra",
+              "url": "https://engineer-astra.vercel.app",
+              "sameAs": "https://www.linkedin.com/company/engineer-astra/",
+              "description": "Find the best engineering colleges in India based on your JEE rank and 12th percentage."
+            }
+          `}
+        </script>
+      </Helmet>
       <Navbar />
       <div className={styles.content}>
+      <h1>Welcome to Engineer Astra! Find the Best Engineering Colleges in India Based on Your JEE Rank</h1>
         <div className={styles.contentChild}>
           <input 
             type='number' 
