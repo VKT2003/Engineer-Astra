@@ -16,8 +16,15 @@
 }
 
 .content h1 {
-    margin: 0;
+    font-size: 2rem; /* Adjust as per your design */
+  font-weight: 350;
+  color: #c6dff8; /* A dark shade for readability */
+  margin-bottom: 1rem;
+  text-align: center; /* Center the heading */
+
 }
+
+
 
 .content::-webkit-scrollbar {
     display: none;
@@ -204,6 +211,10 @@
         left: 8px;
         bottom: 68px;
     }
+    .content h1{
+        font-size: 1.5rem;
+    }
+    
 
     .main {
         bottom: 68px;
