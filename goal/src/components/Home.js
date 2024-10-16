@@ -88,7 +88,7 @@ const Home = () => {
             </div>
           ))
         ) : (
-          <p>No colleges found matching your criteria.</p>
+          <p>Engineer Astra will display the colleges with your suitable rank and percentage.</p>
         )}
       </div>
       </div>
