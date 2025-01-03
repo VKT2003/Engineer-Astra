@@ -25,7 +25,7 @@ const About = () => {
         <p>
           This platform is designed to simplify the college admission process and help you excel in your academic journey.
         </p>
-        <p className={styles.creator}>Created by <strong>Vishal Tiwari</strong>, B.Tech CSE (AI & ML).</p>
+        <p className={styles.creator}>Created by <strong>Vishal Tiwari & Vikas Jadon</strong>, B.Tech CSE (AI & ML).</p>
       </div>
     </div>
   );
