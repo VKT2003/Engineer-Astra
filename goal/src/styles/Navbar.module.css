@@ -12,7 +12,7 @@
     /* margin-left: 280px; */
     left: 290px;
     top: 0;
-    height: 50px;
+    height: 70px;
 }
 
 .left {
@@ -90,9 +90,10 @@
     align-items: center;
     gap: 1rem;
     height: 40px;
+    position: relative;
 }
 
-.userProfile div{
+.profileImg{
     width: 24px;
     height: 24px;
     padding: 5px;
@@ -104,29 +105,53 @@
     color: white;
 }
 
-.userProfile p{
-    color: #0056b3;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.2rem;
-}
-.userProfile input[type="button"] {
-    background-color: #0056b3;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    width: 100px;
-    border-radius: 5px;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.3s, box-shadow 0.3s;
-}
-
-
-.profile img {
+.profileImage{
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+
+.profileDropdown {
+    display: none;
+    position: absolute;
+    background-color: #252525;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    top: 25px;
+    right: 8px;
+    border-radius: 9px;
+    padding: 5px;
+}
+
+.profileDropdown li{
+    padding: 5px 1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.profileDropdown li a, .profileDropdown li span{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.profileDropdown li:hover{
+    background-color: #434446;
+}
+
+.profileImg:hover~.profileDropdown,
+.profileDropdown:hover,
+.profileImage:hover~.profileDropdown {
+    display: block;
 }
 
 .right {
@@ -173,7 +198,7 @@
 .hamburger {
     position: absolute;
     left: 8px;
-    top: 20px;
+    top: 15px;
     width: 40px;
     height: 40px;
     z-index: 2;
@@ -191,6 +216,7 @@
     gap: 3px;
     padding: 0;
     margin: 0;
+    list-style: none;
     /* border: 1px solid white; */
 }
 
@@ -201,6 +227,10 @@
     background-color: white;
     border-radius: 7px;
     transition: all 0.3s;
+}
+
+.hamburger ul li::marker {
+    display: none;
 }
 
 .closeHam li:nth-child(1) {
@@ -237,7 +267,7 @@
     .right{
         position: absolute;
         right: 8px;
-        top: 20px;
+        top: 15px;
     }
 
     .userProfile{

@@ -6,6 +6,7 @@ import Playlistdata from '../Lectures/CSEPlalistData/data.json';
 import YouTube from 'react-youtube';
 import axios from 'axios';
 import { AuthContext } from '../../context/AuthProvider';
+import FloatingButton from '../FloatingButton';
 
 const LectureVideos = () => {
   const { category, playlist, playlistId, videoId } = useParams();
@@ -13,15 +14,25 @@ const LectureVideos = () => {
   const [selectedPlaylist, setSelectedPlaylist] = useState([]);
   const [videoIndex, setVideoIndex] = useState(0);
   const [completedVideos, setCompletedvideos] = useState([]);
-  const { user } = useContext(AuthContext);
+  const [isCourseCompleted, setIsCourseCompleted] = useState(false);
+  const { user, courses } = useContext(AuthContext);
 
+  const userId = user.id; 
+  const playlistIdFromContext = playlistId; 
+
+  const handleDownload = () => {
+
+    const certUrl = `${process.env.REACT_APP_CERTIFICATE_URL}/?userId=${userId}&playListId=${playlistIdFromContext}`;
+
+    window.open(certUrl, "_blank"); // opens in new tab
+  };
 
 
   useEffect(() => {
     const getCompletedCourse = async () => {
       try {
         const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/courses/getCompletedCourse`, {
-          userId: user?.user.id,
+          userId: user.id,
           playListId: playlistId,
         });
         setCompletedvideos(response.data.completedVideos);
@@ -29,9 +40,20 @@ const LectureVideos = () => {
         console.log(error);
       }
     }
-    getCompletedCourse();
+    const getRequiredCourseData = (playlistId) => {
+      console.log(courses, playlistId)
+      return courses?.find((course) => course.playListId === playlistId) || null;
+    };
 
-  }, [playlistId, user?.user.id]);
+    getCompletedCourse();
+    if (courses) {
+      const courseData = getRequiredCourseData(playlistId);
+      if (courseData?.isCompleted) {
+        setIsCourseCompleted(true)
+      }
+    }
+
+    }, [playlistId, user, courses]);
 
   useEffect(() => {
     // Get the selected playlist from the JSON data
@@ -66,13 +88,18 @@ const LectureVideos = () => {
   const handleComplete = async () => {
     try {
       const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/courses/create`, {
-        userId: user?.user.id,
+        userId: user.id,
         playListId: playlistId,
         videoUrl: videoId,
-        totalVideos: selectedPlaylist.videos.length
+        totalVideos: selectedPlaylist.videos.length,
+        playListName: selectedPlaylist.name,
       });
+
+      console.log(response)
+
       if (response.data.isCompleted) {
-        alert('Course completed! You are eligible for a certificate.');
+        alert("You have completed this course")
+        window.location.reload();
       }
       setCompletedvideos((prev) => [...prev, videoId]);
     } catch (error) {
@@ -86,7 +113,7 @@ const LectureVideos = () => {
     }
   }, [videoId, selectedPlaylists]);
 
-  console.log("completedVideos",completedVideos);
+  console.log("completedVideos", completedVideos);
 
 
 
@@ -132,6 +159,9 @@ const LectureVideos = () => {
               )}
             </div>
           </div>
+          {isCourseCompleted && (
+            <FloatingButton handleDownload={handleDownload} />
+          )}
         </div>
       </div>
     </div>

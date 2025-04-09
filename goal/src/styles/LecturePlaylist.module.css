@@ -134,6 +134,24 @@
 .cardLink:hover{
     background-color: #013770;
 }
+
+.progress{
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.progress progress{
+    width: 55%;
+}
+
+.progress span{
+    color: white;
+    font-size: 0.8em;
+}
 @media screen and (max-width: 768px) {
     .content {
         left: 8px;

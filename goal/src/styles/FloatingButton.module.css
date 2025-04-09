@@ -1,0 +1,55 @@
+/* For floating style */
+.floating_certificate_btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 14px 24px;
+    background-color: #00cc99;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    animation: bounce 2s infinite;
+    z-index: 999;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.download_certificate_btn{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #00cc99;
+    border-radius: 5px;
+    color: white !important;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.floating_certificate_btn:hover, .download_certificate_btn:hover {
+    background-color: #009977;
+}
+
+
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .floating_certificate_btn {
+        bottom: 80px;
+        padding: 5px 10px;
+        font-size: 11px;
+    }
+
+}

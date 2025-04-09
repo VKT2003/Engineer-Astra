@@ -1,14 +1,28 @@
 const User = require('../models/User');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
+const mongoose = require('mongoose');
 require('dotenv').config();
+
+const url = process.env.BACKEND_URL;
+
 
 exports.register = async (req, res) => {
     try {
-        const { name, email, password } = req.body;
-        if (!name || !email || !password) {
+        const { firstName, lastName, email, phone, password } = req.body;
+        if (!firstName || !email || !password || !lastName || !phone) {
             return res.status(400).json({ message: 'Please enter all fields' });
         }
+
+        console.log(req.file, firstName, lastName, email, phone, password);
+
+        if (!req.file) {
+            return res.status(400).json({ error: "No file uploaded!" });
+        }
+
+        const fileUrl = `${url}/api/auth/file/${req.file.filename}`;
+        console.log(fileUrl);
+
         if (password.length < 6) {
             return res.status(400).json({ message: 'Password must be at least 6 characters long' });
         }
@@ -19,27 +33,29 @@ exports.register = async (req, res) => {
         const salt = await bcrypt.genSalt();
         const passwordHash = await bcrypt.hash(password, salt);
         const newUser = new User({
-            name,
+            firstName,
+            lastName,
+            phone,
+            profileImg: fileUrl,
             email,
-            password: passwordHash
+            password: passwordHash,
         });
+
         const savedUser = await newUser.save();
-        const token = jwt.sign({ id: savedUser._id }, process.env.JWT_SECRET);
-        res.status(200).json({
-            token,
+        const payload = {
             user: {
-                id: savedUser._id,
-                name: savedUser.name,
-                email: savedUser.email
+                id: savedUser.id
             }
-        });
+        };
+        const token = jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: 3600 });
+        res.status(200).json({ token, message : "User registered successfully"});
     } catch (err) {
         res.status(500).json({ message: err.message });
     }
 }
 
 exports.login = async (req, res) => {
-      try {
+    try {
         const { email, password } = req.body;
         if (!email || !password) {
             return res.status(400).json({ message: 'Please enter all fields' });
@@ -52,21 +68,111 @@ exports.login = async (req, res) => {
         if (!isMatch) {
             return res.status(400).json({ message: 'Invalid credentials' });
         }
-        
+
         const payload = {
             user: {
-              id: user.id,
-              name: user.name,
-              email: user.email
+                id: user.id
             }
-          };
-        jwt.sign(payload, process.env.JWT_SECRET,{ expiresIn: 3600 },  (err, token) => {
-            if (err) throw err;
-            res.json({ token });
-        });
+        };
+        const token = jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: 3600 });
+        res.status(200).json({ token, message : "User logged in successfully"});
     }
     catch (err) {
         res.status(500).json({ message: err.message });
     }
 }
 
+exports.getUserById = async (req, res) => {
+    try {
+        console.log(req.params.id)
+        const user = await User.findById(req.params.id).select('-password');
+        if (!user) {
+            return res.status(404).json({ message: 'User not found' });
+        }
+        res.json(user);
+    } catch (err) {
+        res.status(500).json({ message: err.message });
+    }
+}
+
+exports.updateUserDetails = async (req, res) => {
+    const { updatedUser, userId } = req.body;
+
+    try {
+        const user = await User.findById(userId);
+        if (!user) return res.status(404).json({ message: "User not found" });
+
+        const { firstName, lastName, phone, bio } = updatedUser;
+        if (firstName) user.firstName = firstName;
+        if (lastName) user.lastName = lastName;
+        if (phone) user.phone = phone;
+        if (bio) user.bio = bio;
+
+        if (req.file) {
+            const fileUrl = `${url}/api/auth/file/${req.file.filename}`;
+            user.profileImg = fileUrl;
+        }
+
+        await user.save();
+
+        res.status(200).json({ message: "User details updated", user });
+    } catch (error) {
+        console.error("Error updating user details:", error);
+        res.status(500).json({ message: "Server error" });
+    }
+}
+
+exports.addCertificateToUser = async (req, res) => {
+    const { userId, certificateId, courseName, date } = req.body;
+
+    try {
+        const user = await User.findById(userId);
+        if (!user) return res.status(404).json({ message: "User not found" });
+
+        // Check for duplicate certificateId
+        const alreadyExists = user.certificates.some(cert => cert.certificateId === certificateId);
+        if (alreadyExists) {
+            return res.status(400).json({ message: "Certificate already exists for this user." });
+        }
+
+        // Add new certificate
+        user.certificates.push({ certificateId, courseName, date });
+        await user.save();
+
+        res.status(200).json({ message: "Certificate added", certificates: user.certificates });
+    } catch (error) {
+        console.error("Error adding certificate:", error);
+        res.status(500).json({ message: "Server error" });
+    }
+}
+
+let gridFsBucket;
+
+mongoose.connection.once("open", () => {
+  gridFsBucket = new mongoose.mongo.GridFSBucket(mongoose.connection.db, {
+    bucketName: "fs", // Updated to match your actual bucket name
+  });
+});
+
+exports.getImage = async (req, res) => {
+    try {
+      if (!gridFsBucket) {
+        return res.status(500).json({ message: "GridFSBucket is not initialized" });
+      }
+  
+      const fileCollection = mongoose.connection.db.collection("fs.files"); // Ensure this matches your bucket
+      const file = await fileCollection.findOne({ filename: req.params.filename });
+  
+      if (!file) {
+        return res.status(404).json({ message: "File not found" });
+      }
+  
+      res.set("Content-Type", file.contentType);
+  
+      const readStream = gridFsBucket.openDownloadStream(file._id);
+      readStream.pipe(res);
+    } catch (error) {
+      console.error("Error fetching image:", error);
+      res.status(500).json({ error: error.message });
+    }
+  };

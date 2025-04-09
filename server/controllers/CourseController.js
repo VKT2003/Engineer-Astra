@@ -2,7 +2,7 @@ const Course = require('../models/Course');
 const User = require('../models/User');
 
 exports.createCourse = async (req, res) => {
-    const { userId, playListId, videoUrl, totalVideos } = req.body; 
+    const { userId, playListId, videoUrl, totalVideos, playListName } = req.body; 
 
     console.log(req.body);
 
@@ -16,7 +16,8 @@ exports.createCourse = async (req, res) => {
                 playListId: playListId,
                 completedVideos: [videoUrl],
                 totalVideos: totalVideos,
-                isCompleted: false
+                isCompleted: false,
+                playListName: playListName,
             });
 
             console.log(newCourse);
@@ -58,5 +59,19 @@ exports.getCompletedCourse = async (req, res) => {
     }
     catch(error){
         res.status(500).json({ error: 'Server error' });
+    }
+}
+
+exports.getCourses = async (req, res) => {
+    const { userId } = req.params;
+    try{
+        const courses = await Course.find({user: userId});
+        if(!courses){
+            return res.status(404).json({message: "No Courses Found"});
+        }
+
+        res.status(200).json(courses);
+    }catch(err){
+        res.status(500).json({ err: 'Server error' });
     }
 }

@@ -2,16 +2,19 @@ import React, { useContext } from 'react';
 import styles from '../styles/Sidebar.module.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBook, faVideo, faHeadset, faUniversity } from '@fortawesome/free-solid-svg-icons';
+import { faBook, faVideo, faHeadset, faUniversity, faUser } from '@fortawesome/free-solid-svg-icons';
 import { MenuContext } from '../context/MenuContext';
+import { AuthContext } from '../context/AuthProvider';
 
 const SideBar = () => {
 
   const { openHam, toggleMenu } = useContext(MenuContext);
 
+  const { user, isLogged } = useContext(AuthContext);
+
   return (
     <div className={`${styles.sidebar} ${openHam ? styles.closeSidebar : styles.openSidebar}`}>
-      <img className={styles.logo} src="\logo.png" alt="profile" />
+      <Link to={"/"}><img className={styles.logo} src="\logo.png" alt="profile" /></Link>
       <div className={`${styles.services}`}>
         <div className={`${styles.sep}`}></div>
         <h1>Services</h1>
@@ -39,6 +42,11 @@ const SideBar = () => {
             <FontAwesomeIcon icon={faUniversity} /> Top Colleges
           </Link>
         </li>
+        {isLogged && (<li>
+        <Link to="/profile">
+            <FontAwesomeIcon icon={faUser} /> Profile
+          </Link>
+        </li>)}
       </ul>
     </div>
   );

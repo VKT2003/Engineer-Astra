@@ -1,15 +1,22 @@
-import React, { useContext} from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import React, { useContext, useEffect } from 'react'
+import { Link, useNavigate, useLocation } from 'react-router-dom'
 import styles from '../styles/Navbar.module.css'
 import { MenuContext } from '../context/MenuContext'
 import { AuthContext } from '../context/AuthProvider';
 
 const Navbar = () => {
     const navigate = useNavigate()
+    const location = useLocation()
     const { user, isLogged } = useContext(AuthContext);
 
+    console.log(user, isLogged)
 
-    const { openHam, toggleMenu } = useContext(MenuContext)
+
+    const { openHam, toggleMenu, setOpenHam } = useContext(MenuContext)
+
+    useEffect(() => {
+        setOpenHam(true)
+    }, [location]);
 
     const logout = () => {
         localStorage.removeItem('token')
@@ -36,7 +43,7 @@ const Navbar = () => {
                             <Link to="/mba">MBA</Link>
                         </div>
                     </li>
-                    
+
                 </ul>
             </div>
             {/* <div className={`${styles.right}`}>
@@ -44,12 +51,17 @@ const Navbar = () => {
             </div> */}
             {isLogged ? (
                 <div className={`${styles.userProfile}`}>
-                        <div>{user.user.name[0].toUpperCase()}</div>
-                        <input type="button" value="Log Out" onClick={logout} />
+                    {user?.profileImg ? <img src={user?.profileImg} className={`${styles.profileImage}`} alt="Profile"/> : <div className={`${styles.profileImg}`}>{user?.firstName[0].toUpperCase()}</div>}
+                    <div className={`${styles.profileDropdown}`}>
+                        <li><Link to="/profile">Profile</Link></li>
+                        <li><Link to="/dashboard">Dashboard</Link></li>
+                        <li><Link to="/settings">Settings</Link></li>
+                        <li onClick={logout}><span>Logout</span></li>
                     </div>
+                </div>
             ) : (
                 <div className={`${styles.right}`}>
-                    <input type="button" value="sign-in" onClick={()=>navigate('/login')} />
+                    <input type="button" value="sign-in" onClick={() => navigate('/login')} />
                 </div>
             )}
         </div>

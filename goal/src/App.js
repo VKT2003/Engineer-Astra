@@ -14,7 +14,6 @@ import LectureCategory from './components/Lectures/LectureCategory';
 import LecturePlaylist from './components/Lectures/LecturePlaylist';
 import Lectures from './components/Lectures/Lectures';
 import LectureVideos from './components/Lectures/LectureVideos';
-import YouTubeVideo from './components/Lectures/Youtube';
 import GoogleDriveFiles from './components/Lectures/GoogleDriveFiles';
 import NotesFolder from './components/Notes/NotesFolder';
 import Notes from './components/Notes/Notes';
@@ -24,6 +23,7 @@ import HelpDesk from './components/HelpDesk';
 import Login from './components/Login';
 import Register from './components/Register';
 import AuthProvider from './context/AuthProvider';
+import Profile from './components/Profile';
 
 const App = () => {
   const [openHam, setOpenHam] = useState(menu.open);
@@ -33,37 +33,36 @@ const App = () => {
   }
 
   return (
-    <AuthProvider>
-    <MenuContext.Provider value={{ openHam, toggleMenu }}>
+    <MenuContext.Provider value={{ openHam, toggleMenu, setOpenHam }}>
       <Router>
-        <SideBar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/courses" element={<Courses />} />
-          <Route path="/btech" element={<Btech />} />
-          <Route path="/mtech" element={<Mtech />} />
-          <Route path="/mba" element={<Mba />} />
-          <Route path="/collegelist" element={<CollegeList />} />
-          <Route path="/lectures" element={<Lectures />} />
-          <Route path="/lectures/:category" element={<LectureCategory />} />
-          <Route path="/lectures/:category/:playlist" element={<LecturePlaylist />} />
-          <Route path="/lectures/:category/:playlist/:playlistId" element={<LecturePlaylistView />} />
-          <Route path="/lectures/:category/:playlist/:playlistId/:videoId" element={<LectureVideos />} />
-          <Route path="/youtube" element={<YouTubeVideo />} />
-          <Route path="/notes/:folderId" element={<NotesFolder />} />
-          <Route path="/notes/:folderId/:notesFolderId" element={<Notes />} />
-          <Route path="/drive" element={<GoogleDriveFiles />} />
-          <Route path="/topcolleges" element={<TopColleges />} />
-          <Route path="helpdesk" element={<HelpDesk />} />
-          <Route path="login" element={<Login />} />
-          <Route path="register" element={<Register />} />
-
-        </Routes>
-        <BottomNav />
+        <AuthProvider>
+          <SideBar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/courses" element={<Courses />} />
+            <Route path="/btech" element={<Btech />} />
+            <Route path="/mtech" element={<Mtech />} />
+            <Route path="/mba" element={<Mba />} />
+            <Route path="/collegelist" element={<CollegeList />} />
+            <Route path="/lectures" element={<Lectures />} />
+            <Route path="/lectures/:category" element={<LectureCategory />} />
+            <Route path="/lectures/:category/:playlist" element={<LecturePlaylist />} />
+            <Route path="/lectures/:category/:playlist/:playlistId" element={<LecturePlaylistView />} />
+            <Route path="/lectures/:category/:playlist/:playlistId/:videoId" element={<LectureVideos />} />
+            <Route path="/notes/:folderId" element={<NotesFolder />} />
+            <Route path="/notes/:folderId/:notesFolderId" element={<Notes />} />
+            <Route path="/drive" element={<GoogleDriveFiles />} />
+            <Route path="/topcolleges" element={<TopColleges />} />
+            <Route path="helpdesk" element={<HelpDesk />} />
+            <Route path="login" element={<Login />} />
+            <Route path="register" element={<Register />} />
+            <Route path="profile" element={<Profile />} />
+          </Routes>
+          <BottomNav />
+        </AuthProvider>
       </Router>
     </MenuContext.Provider>
-    </AuthProvider>
   );
 };
 

@@ -6,6 +6,10 @@ const courseSchema = new mongoose.Schema({
     ref: 'User', 
     required: true 
   },
+  playListName : {
+    type: String, 
+    required: true 
+  },
   playListId: {  // Consistent naming
     type: String, 
     required: true 
