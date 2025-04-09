@@ -17,7 +17,7 @@ const LectureVideos = () => {
   const [isCourseCompleted, setIsCourseCompleted] = useState(false);
   const { user, courses } = useContext(AuthContext);
 
-  const userId = user.id; 
+  const userId = user?._id; 
   const playlistIdFromContext = playlistId; 
 
   const handleDownload = () => {
