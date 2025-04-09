@@ -94,6 +94,8 @@ const Profile = () => {
 
     const userId = user?._id || 'user123';
 
+    console.log(courses)
+
     const enrolledCourses = courses?.filter(course => !course.isCompleted);
     const completedCourses = courses?.filter(course => course.isCompleted);
 
