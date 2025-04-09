@@ -32,7 +32,7 @@ const LectureVideos = () => {
     const getCompletedCourse = async () => {
       try {
         const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/courses/getCompletedCourse`, {
-          userId: user.id,
+          userId: user?._id,
           playListId: playlistId,
         });
         setCompletedvideos(response.data.completedVideos);
@@ -88,7 +88,7 @@ const LectureVideos = () => {
   const handleComplete = async () => {
     try {
       const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/courses/create`, {
-        userId: user.id,
+        userId: user?._id,
         playListId: playlistId,
         videoUrl: videoId,
         totalVideos: selectedPlaylist.videos.length,
