@@ -99,6 +99,8 @@ const Profile = () => {
     const enrolledCourses = courses?.filter(course => !course.isCompleted);
     const completedCourses = courses?.filter(course => course.isCompleted);
 
+    console.log(enrolledCourses, completedCourses)
+
     return (
         <div className={styles.main}>
             <Navbar />
