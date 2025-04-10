@@ -258,7 +258,7 @@
     margin-top: 10px;
 }
 
-.collegeCard {
+.collegeDetails {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
@@ -281,20 +281,20 @@
 
 .collegeCard h2 {
     font-size: 1.5rem;
-    color: #333;
+    color: #333 !important;
     margin-bottom: 10px;
 }
 
 .collegeCard p {
     font-size: 1rem;
-    color: #555;
+    color: #555 !important;
     line-height: 1.5;
 }
 
 .collegeCard h3 {
     margin-top: 20px;
     font-size: 1.3rem;
-    color: #444;
+    color: #444 !important;
 }
 
 .collegeCard div {

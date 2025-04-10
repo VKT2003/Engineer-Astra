@@ -114,24 +114,28 @@ const Home = () => {
         <div className={`${styles.collegeGrid}`}>
           {filteredColleges.length > 0 ? (
             filteredColleges.map((college, index) => (
-              <div className={styles.collegeCard} key={index}>
-                {/* <img src={college.imgUrl} alt={college.college_name} /> */}
+              <div className={`${styles.collegeCard}`} key={index}>
                 <h2>{college.college_name}</h2>
-                <p><strong>Location:</strong> {college.location}</p>
-                <p><strong>Affiliation:</strong> {college.affiliation}</p>
-                <p><strong>Accreditation:</strong> {college.accreditation}</p>
-                <p><strong>Established Year:</strong> {college.established_year}</p>
+                <div className={styles.collegeDetails} >
+                  {/* <img src={college.imgUrl} alt={college.college_name} /> */}
+                  <p><strong>Location:</strong> {college.location}</p>
+                  <p><strong>Affiliation:</strong> {college.affiliation}</p>
+                  <p><strong>Accreditation:</strong> {college.accreditation}</p>
+                  <p><strong>Established Year:</strong> {college.established_year}</p>
+                </div>
                 <h3>Courses:</h3>
-                {college.courses.map((course, idx) => (
-                  <div key={idx}>
-                    <p><strong>Course:</strong> {course.name}</p>
-                    <p><strong>Fees:</strong> INR {course.fees.total}</p>
-                    <p><strong>Placements:</strong> Avg. Package {course.placements.averagePackage}, Highest {course.placements.highestPackage}</p>
-                  </div>
-                ))}
-                <p><strong>Facilities:</strong> {college.facilities.join(", ")}</p>
-                <p><strong>Admission Process:</strong> {college.admission_process.jeeMain}</p>
-                <p><strong>Contact:</strong> {college.contact_info.phone}, {college.contact_info.email}</p>
+                <div className={styles.collegeDetails} >
+                  {college.courses.map((course, idx) => (
+                    <div key={idx}>
+                      <p><strong>Course:</strong> {course.name}</p>
+                      <p><strong>Fees:</strong> INR {course.fees.total}</p>
+                      <p><strong>Placements:</strong> Avg. Package {course.placements.averagePackage}, Highest {course.placements.highestPackage}</p>
+                    </div>
+                  ))}
+                  <p><strong>Facilities:</strong> {college.facilities.join(", ")}</p>
+                  <p><strong>Admission Process:</strong> {college.admission_process.jeeMain}</p>
+                  <p><strong>Contact:</strong> {college.contact_info.phone}, {college.contact_info.email}</p>
+                </div>
               </div>
             ))
           ) : (
