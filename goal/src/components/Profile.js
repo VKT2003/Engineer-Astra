@@ -114,13 +114,17 @@ const Profile = () => {
     };
 
     useEffect(() => {
-        if (courses && courses.length > 0) {
+        console.log("Courses changed:", courses);
+
+        if (courses) {
             const enrolled = courses.filter(course => !course.isCompleted);
             const completed = courses.filter(course => course.isCompleted);
+            console.log("Filtered:", { enrolled, completed });
+
             setEnrolledCourses(enrolled);
             setCompletedCourses(completed);
         }
-    }, [courses]);
+    }, [courses, user]);
 
     console.log(enrolledCourses, completedCourses);
 
