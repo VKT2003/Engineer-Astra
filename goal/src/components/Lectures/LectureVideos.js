@@ -93,6 +93,8 @@ const LectureVideos = () => {
         videoUrl: videoId,
         totalVideos: selectedPlaylist.videos.length,
         playListName: selectedPlaylist.name,
+        category: category,
+        playlist: playlist,
       });
 
       console.log(response)

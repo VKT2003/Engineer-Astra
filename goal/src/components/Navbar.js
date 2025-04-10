@@ -46,16 +46,11 @@ const Navbar = () => {
 
                 </ul>
             </div>
-            {/* <div className={`${styles.right}`}>
-                <input type="button" value="sign-in" onClick={()=>navigate('/login')} />
-            </div> */}
             {isLogged ? (
                 <div className={`${styles.userProfile}`}>
                     {user?.profileImg ? <img src={user?.profileImg} className={`${styles.profileImage}`} alt="Profile"/> : <div className={`${styles.profileImg}`}>{user?.firstName[0].toUpperCase()}</div>}
                     <div className={`${styles.profileDropdown}`}>
                         <li><Link to="/profile">Profile</Link></li>
-                        <li><Link to="/dashboard">Dashboard</Link></li>
-                        <li><Link to="/settings">Settings</Link></li>
                         <li onClick={logout}><span>Logout</span></li>
                     </div>
                 </div>

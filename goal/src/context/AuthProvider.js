@@ -2,11 +2,13 @@ import { createContext, useState, useEffect } from "react";
 import { jwtDecode } from 'jwt-decode';
 import { useLocation } from "react-router-dom";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 export const AuthContext = createContext();
 
 
 const AuthProvider = ({ children }) => {
     const location = useLocation();
+    const navigate = useNavigate();
     const [user, setUser] = useState(null);
     const [userId, setUserId] = useState(null);
     const [courses, setCourses] = useState([]);
@@ -24,8 +26,16 @@ const AuthProvider = ({ children }) => {
                 setUserId(decoded?.user?.id);
             }
         }
+
+        if(token && (location.pathname === '/login' || location.pathname === '/register')){
+            navigate('/');
+        }
+
+        if(!token && (location.pathname === '/profile' )){
+            navigate('/login');
+        }
         setLoading(false);
-    }, [location]);
+    }, [location, navigate]);
 
     useEffect(()=>{
         const fetcUser = async () => {

@@ -14,6 +14,14 @@ const courseSchema = new mongoose.Schema({
     type: String, 
     required: true 
   },
+  playlist:{
+    type: String, 
+    required: true 
+  },
+  category:{
+    type: String, 
+    required: true 
+  },
   completedVideos: [String],  // Array of completed video IDs
   totalVideos: { 
     type: Number, 

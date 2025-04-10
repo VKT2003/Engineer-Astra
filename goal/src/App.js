@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Courses from './components/Courses';
@@ -24,6 +24,7 @@ import Login from './components/Login';
 import Register from './components/Register';
 import AuthProvider from './context/AuthProvider';
 import Profile from './components/Profile';
+import VerifyCertificate from './components/VerifyCertificate';
 
 const App = () => {
   const [openHam, setOpenHam] = useState(menu.open);
@@ -32,9 +33,12 @@ const App = () => {
     openHam === menu.open ? setOpenHam(!menu.open) : setOpenHam(menu.open)
   }
 
+  useEffect(()=>{
+    
+  })
+
   return (
     <MenuContext.Provider value={{ openHam, toggleMenu, setOpenHam }}>
-      <Router>
         <AuthProvider>
           <SideBar />
           <Routes>
@@ -58,10 +62,10 @@ const App = () => {
             <Route path="login" element={<Login />} />
             <Route path="register" element={<Register />} />
             <Route path="profile" element={<Profile />} />
+            <Route path="verify" element={<VerifyCertificate />} />
           </Routes>
           <BottomNav />
         </AuthProvider>
-      </Router>
     </MenuContext.Provider>
   );
 };

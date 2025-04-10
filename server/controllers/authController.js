@@ -96,13 +96,13 @@ exports.getUserById = async (req, res) => {
 }
 
 exports.updateUserDetails = async (req, res) => {
-    const { updatedUser, userId } = req.body;
+    const formData = req.body;
 
     try {
-        const user = await User.findById(userId);
+        const user = await User.findById(formData.userId);
         if (!user) return res.status(404).json({ message: "User not found" });
 
-        const { firstName, lastName, phone, bio } = updatedUser;
+        const { firstName, lastName, phone, bio } = formData;
         if (firstName) user.firstName = firstName;
         if (lastName) user.lastName = lastName;
         if (phone) user.phone = phone;
@@ -110,6 +110,7 @@ exports.updateUserDetails = async (req, res) => {
 
         if (req.file) {
             const fileUrl = `${url}/api/auth/file/${req.file.filename}`;
+            console.log(fileUrl);
             user.profileImg = fileUrl;
         }
 
@@ -142,6 +143,20 @@ exports.addCertificateToUser = async (req, res) => {
         res.status(200).json({ message: "Certificate added", certificates: user.certificates });
     } catch (error) {
         console.error("Error adding certificate:", error);
+        res.status(500).json({ message: "Server error" });
+    }
+}
+
+exports.verifyCertificate = async (req, res) => {
+    const { certificateId } = req.body;
+
+    try {
+        const user = await User.findOne({ "certificates.certificateId": certificateId });
+        if (!user) return res.status(404).json({ message: "Certificate not found" });
+
+        res.status(200).json({ message: "Certificate verified", userData: user });
+    } catch (error) {
+        console.error("Error verifying certificate:", error);
         res.status(500).json({ message: "Server error" });
     }
 }

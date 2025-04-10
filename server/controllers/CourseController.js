@@ -2,7 +2,7 @@ const Course = require('../models/Course');
 const User = require('../models/User');
 
 exports.createCourse = async (req, res) => {
-    const { userId, playListId, videoUrl, totalVideos, playListName } = req.body; 
+    const { userId, playListId, videoUrl, totalVideos, playListName, category, playlist } = req.body; 
 
     console.log(req.body);
 
@@ -18,6 +18,8 @@ exports.createCourse = async (req, res) => {
                 totalVideos: totalVideos,
                 isCompleted: false,
                 playListName: playListName,
+                category: category,
+                playlist: playlist,
             });
 
             console.log(newCourse);

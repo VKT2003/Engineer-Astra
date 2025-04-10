@@ -8,7 +8,7 @@
     top: 8px;
     border-radius: 10px;
     bottom: 8px;
-    z-index: 3;
+    z-index: 2;
     overflow: auto;
     transition: all 0.3s;
     display: flex;
@@ -90,7 +90,7 @@
 
     .closeSidebar {
         left: -100%;
-        top: 70px;
+        top: 86px;
     }
 
     .sidebar {
@@ -111,6 +111,6 @@
 
     .openSidebar {
         left: 0px;
-        top: 70px;
+        top: 86px;
     }
 }

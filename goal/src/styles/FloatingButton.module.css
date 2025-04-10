@@ -10,14 +10,14 @@
     border-radius: 50px;
     font-size: 16px;
     animation: bounce 2s infinite;
-    z-index: 999;
+    z-index: 1;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .download_certificate_btn{
     display: flex;
-    justify-content: center;
-    padding: 5px;
+    justify-content: flex-start;
+    padding: 10px;
     background-color: #00cc99;
     border-radius: 5px;
     color: white !important;

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
+    padding: 10px 25px;
     background-color: #000000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -10,9 +10,9 @@
     /* width: 100%; */
     right: 0;
     /* margin-left: 280px; */
-    left: 290px;
-    top: 0;
-    height: 70px;
+    left: 296px;
+    top: 8px;
+    height: 50px;
 }
 
 .left {
@@ -29,7 +29,7 @@
 }
 
 .navbar .left ul li {
-    padding: 5px;
+    padding: 3px 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,6 +45,7 @@
     padding: 0.5rem 1rem;
     border-radius: 5px;
     transition: all 0.3s;
+    text-wrap: nowrap;
 }
 
 .navbar .left ul li:hover {
@@ -58,7 +59,7 @@
     display: block !important;
 }
 
-.navbar ul li:nth-child(3) {
+.navbar ul .courses {
     position: relative;
 }
 
@@ -93,7 +94,7 @@
     position: relative;
 }
 
-.profileImg{
+.profileImg {
     width: 24px;
     height: 24px;
     padding: 5px;
@@ -105,7 +106,7 @@
     color: white;
 }
 
-.profileImage{
+.profileImage {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -124,7 +125,7 @@
     padding: 5px;
 }
 
-.profileDropdown li{
+.profileDropdown li {
     padding: 5px 1px;
     display: flex;
     justify-content: flex-start;
@@ -134,7 +135,8 @@
     text-decoration: none;
 }
 
-.profileDropdown li a, .profileDropdown li span{
+.profileDropdown li a,
+.profileDropdown li span {
     text-decoration: none;
     color: white;
     font-weight: 500;
@@ -144,7 +146,7 @@
     cursor: pointer;
 }
 
-.profileDropdown li:hover{
+.profileDropdown li:hover {
     background-color: #434446;
 }
 
@@ -254,25 +256,26 @@
     .navbar {
         left: 0;
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
         justify-content: space-between;
-        padding: 0;
+        padding: 10px;
     }
 
     .hamburger {
         display: block;
+        position: static;
     }
 
-    .right{
+    .right {
         position: absolute;
         right: 8px;
         top: 15px;
     }
 
-    .userProfile{
-        position: absolute;
-        right: 8px;
-        top: 20px;
+    .userProfile {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
     }
 }

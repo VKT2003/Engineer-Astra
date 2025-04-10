@@ -5,7 +5,7 @@
 
 .content{
     position: absolute;
-    top:105px;
+    top:86px;
     bottom: 8px;
     right: 8px;
     left: 295px;
@@ -150,7 +150,7 @@
 
 .progress span{
     color: white;
-    font-size: 0.8em;
+    font-size: 0.8em; 
 }
 @media screen and (max-width: 768px) {
     .content {
