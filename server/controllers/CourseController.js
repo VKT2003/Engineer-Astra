@@ -4,7 +4,6 @@ const User = require('../models/User');
 exports.createCourse = async (req, res) => {
     const { userId, playListId, videoUrl, totalVideos, playListName, category, playlist } = req.body; 
 
-    console.log(req.body);
 
     try {
         let course = await Course.findOne({ user: userId, playListId });
@@ -22,8 +21,6 @@ exports.createCourse = async (req, res) => {
                 playlist: playlist,
             });
 
-            console.log(newCourse);
-
             await newCourse.save();
             return res.json(newCourse);
         } else {
@@ -37,8 +34,6 @@ exports.createCourse = async (req, res) => {
                 course.isCompleted = true;
                 course.completionDate = new Date();
             }
-
-            console.log(course);
 
             await course.save();
             return res.json(course);

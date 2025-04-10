@@ -39,8 +39,6 @@ const Profile = () => {
         }
     };
 
-    console.log(formData)
-
     const handleUpdate = async (e) => {
         e.preventDefault();
 
@@ -114,19 +112,15 @@ const Profile = () => {
     };
 
     useEffect(() => {
-        console.log("Courses changed:", courses);
 
-        if (courses) {
+        if (courses && courses.length > 0) {
             const enrolled = courses.filter(course => !course.isCompleted);
             const completed = courses.filter(course => course.isCompleted);
-            console.log("Filtered:", { enrolled, completed });
 
             setEnrolledCourses(enrolled);
             setCompletedCourses(completed);
         }
     }, [courses, user]);
-
-    console.log(enrolledCourses, completedCourses);
 
 
     return (

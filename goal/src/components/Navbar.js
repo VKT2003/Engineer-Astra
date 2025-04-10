@@ -9,8 +9,6 @@ const Navbar = () => {
     const location = useLocation()
     const { user, isLogged } = useContext(AuthContext);
 
-    console.log(user, isLogged)
-
 
     const { openHam, toggleMenu, setOpenHam } = useContext(MenuContext)
 

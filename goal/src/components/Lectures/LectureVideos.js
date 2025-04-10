@@ -41,7 +41,6 @@ const LectureVideos = () => {
       }
     }
     const getRequiredCourseData = (playlistId) => {
-      console.log(courses, playlistId)
       return courses?.find((course) => course.playListId === playlistId) || null;
     };
 
@@ -59,7 +58,6 @@ const LectureVideos = () => {
     // Get the selected playlist from the JSON data
     if (playlistId) {
       const filteredPlaylists = Playlistdata.playlists.filter(pl => pl.playlistId === playlistId);
-      console.log(filteredPlaylists[0].videos);
       setSelectedPlaylists(filteredPlaylists[0].videos);
       setSelectedPlaylist(filteredPlaylists[0]);
     }
@@ -97,7 +95,6 @@ const LectureVideos = () => {
         playlist: playlist,
       });
 
-      console.log(response)
 
       if (response.data.isCompleted) {
         alert("You have completed this course")
@@ -115,7 +112,6 @@ const LectureVideos = () => {
     }
   }, [videoId, selectedPlaylists]);
 
-  console.log("completedVideos", completedVideos);
 
 
 

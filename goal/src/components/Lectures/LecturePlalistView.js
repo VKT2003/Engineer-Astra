@@ -12,7 +12,6 @@ const LecturePlaylistView = () => {
   const [selectedPlaylistData, setSelectedPlaylistData] = useState([]);
   const [videoIndex, setVideoIndex] = useState(0);
 
-  console.log(category, playlist, playlistId, videoId);
 
   useEffect(() => {
     if (playlistId) {
@@ -47,8 +46,6 @@ const LecturePlaylistView = () => {
       setVideoIndex(index + 1);
     }
   }, [videoId, selectedPlaylists]);
-
-  console.log(videoIndex)
 
   return (
     <div className={styles.main}>

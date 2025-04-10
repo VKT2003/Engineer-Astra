@@ -56,7 +56,6 @@ const Register = () => {
                     'Content-Type': 'multipart/form-data',
                 },
             });
-            console.log(response.data);
             localStorage.setItem('token', response.data.token);
             toast.success(response.data.message);
             setTimeout(() => {

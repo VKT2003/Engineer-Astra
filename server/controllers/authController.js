@@ -14,14 +14,11 @@ exports.register = async (req, res) => {
             return res.status(400).json({ message: 'Please enter all fields' });
         }
 
-        console.log(req.file, firstName, lastName, email, phone, password);
-
         if (!req.file) {
             return res.status(400).json({ error: "No file uploaded!" });
         }
 
         const fileUrl = `${url}/api/auth/file/${req.file.filename}`;
-        console.log(fileUrl);
 
         if (password.length < 6) {
             return res.status(400).json({ message: 'Password must be at least 6 characters long' });
@@ -84,7 +81,6 @@ exports.login = async (req, res) => {
 
 exports.getUserById = async (req, res) => {
     try {
-        console.log(req.params.id)
         const user = await User.findById(req.params.id).select('-password');
         if (!user) {
             return res.status(404).json({ message: 'User not found' });
@@ -110,7 +106,6 @@ exports.updateUserDetails = async (req, res) => {
 
         if (req.file) {
             const fileUrl = `${url}/api/auth/file/${req.file.filename}`;
-            console.log(fileUrl);
             user.profileImg = fileUrl;
         }
 

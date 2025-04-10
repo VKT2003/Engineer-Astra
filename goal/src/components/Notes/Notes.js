@@ -44,8 +44,6 @@ const Notes = () => {
   // Function to get the appropriate icon based on file extension
   const getFileIcon = (fileName) => {
     const extension = fileName.split('.').pop().toLowerCase();
-    
-    console.log(extension)// Get file extension
 
     switch (extension) {
       case 'pdf':

@@ -57,11 +57,9 @@ const AuthProvider = ({ children }) => {
 
     useEffect(() => {
         const userId = user?._id;
-        console.log(userId)
         const fetchCourses = async () => {
             try {
                 const response = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/courses/getCourses/${userId}`);
-                console.log(response)
                 if (response.data) {
                     setCourses(response.data);
                 }
@@ -75,7 +73,6 @@ const AuthProvider = ({ children }) => {
         }
     }, [user, location])
 
-    console.log(userId)
 
     return (
         <AuthContext.Provider value={{ user, isLogged, loading, courses }}>

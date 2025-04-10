@@ -22,7 +22,6 @@ const VerifyCertificate = () => {
         e.preventDefault();
         try {
             const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/auth/verifycertificate`, { certificateId });
-            console.log(response)
             if (response.status === 200) {
                 setUserData(response.data.userData)
                 toast.success('Certificate verified successfully!');
@@ -34,8 +33,6 @@ const VerifyCertificate = () => {
             toast.error('An error occurred while verifying the certificate!');
         }
     };
-
-    console.log(userData);
 
 
     return (
