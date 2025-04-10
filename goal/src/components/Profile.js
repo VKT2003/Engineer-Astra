@@ -122,6 +122,8 @@ const Profile = () => {
         }
     }, [courses]);
 
+    console.log(enrolledCourses, completedCourses);
+
 
     return (
         <div className={styles.main}>
