@@ -4,6 +4,7 @@ import Navbar from '../Navbar';
 import { Link } from 'react-router-dom';
 import lectureCategory from '../Lectures/CategoryPlaylist.json'; // Your JSON data
 import { useParams } from 'react-router-dom';
+import Footer from '../Footer';
 
 const LectureCategory = () => {
     const { category } = useParams();
@@ -27,7 +28,7 @@ const LectureCategory = () => {
                         selectedCategory.map((course, index) => (
                             <div key={index} className={styles.card}>
                                 {/* Assuming each course has an imgUrl for image */}
-                                <img src={course.imgUrl || '/defaultImage.jpg'} alt={course.name} className={styles.cardImage} />
+                                <img src={course.imgUrl || '/defaultImage.jpg'} alt={course.name} className={styles.cardImage} loading='lazy' />
                                 <div className={`${styles.cardContent}`}>
                                     <h3>{course.name}</h3>
                                     <p>{course.description}</p>
@@ -43,6 +44,7 @@ const LectureCategory = () => {
                         <p>No courses available for this category.</p>
                     )}
                 </div>
+                <Footer />
             </div>
         </div>
     );

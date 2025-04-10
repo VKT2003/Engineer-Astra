@@ -2,6 +2,7 @@ import { React, useState, useEffect } from 'react';
 import styles from '../styles/Btech.module.css';
 import NavBar from './Navbar';
 import colleges from './csvjson.json';
+import Footer from './Footer';
 
 const Btech = () => {
   const [collegeData, setCollegeData] = useState([]);
@@ -64,6 +65,7 @@ const Btech = () => {
               </button>
             </div>
           ))}
+          <Footer />
         </div>
       </div>
 

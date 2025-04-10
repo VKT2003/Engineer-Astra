@@ -9,11 +9,11 @@
     bottom: 8px;
     right: 8px;
     left: 295px;
+    z-index: 1;
     /* padding: 10px; */
     overflow: auto;
     background-color: #212529;
     border-radius: 10px;
-    z-index: 2;
     
 }
 
@@ -40,7 +40,7 @@
     font-family: 'Arial', sans-serif;
     /* border: 8px solid #000; */
     background: #0d0f11;
-    z-index: 2;
+    z-index: 1;
     left: 0;
     right: 0;
 }

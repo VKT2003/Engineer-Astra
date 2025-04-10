@@ -5,6 +5,7 @@ import Navbar from './Navbar'
 import axios from 'axios'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from './Footer'
 
 const VerifyCertificate = () => {
     const [certificateId, setCertificateId] = useState('');
@@ -64,6 +65,7 @@ const VerifyCertificate = () => {
                         </div>
                     )}
                 </div>
+                <Footer />
             </div>
             <ToastContainer />
         </div>

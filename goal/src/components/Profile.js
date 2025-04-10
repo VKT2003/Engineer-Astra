@@ -9,6 +9,7 @@ import axios from 'axios';
 import CustomButton from './CustomButton';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from './Footer';
 
 const Profile = () => {
     const navigate = useNavigate();
@@ -128,121 +129,124 @@ const Profile = () => {
             <ToastContainer />
             <Navbar />
             <div className={styles.content}>
-                <div className={styles.header}>
-                    <h3>My Profile</h3><hr />
-                </div>
+                <div className={`${styles.mainContent}`}>
+                    <div className={styles.header}>
+                        <h3>My Profile</h3><hr />
+                    </div>
 
-                <div className={styles.top}>
-                    <div className={`${styles.fileInput}`}>
-                        <input type="file" id="file" name="file" onChange={handleChange} />
-                        <label htmlFor="file">
-                            {preview ? (
-                                <img src={preview} alt="Preview" />
-                            ) : user?.profileImg ? (
-                                <img src={user.profileImg} alt="Profile" />
-                            ) : (
-                                <img src="/add-image.webp" alt="Add" />
-                            )}
-                            <span className={styles.profileChangeButton}>✎ Change Profile Image</span>
-                        </label>
+                    <div className={styles.top}>
+                        <div className={`${styles.fileInput}`}>
+                            <input type="file" id="file" name="file" onChange={handleChange} />
+                            <label htmlFor="file">
+                                {preview ? (
+                                    <img src={preview} alt="Preview" loading='lazy' />
+                                ) : user?.profileImg ? (
+                                    <img src={user.profileImg} alt="Profile" loading='lazy' />
+                                ) : (
+                                    <img src="/add-image.webp" alt="Add" loading='lazy' />
+                                )}
+                                <span className={styles.profileChangeButton}>✎ Change Profile Image</span>
+                            </label>
+                        </div>
+                        <div className={styles.details}>
+                            <span>{user?.firstName + " " + user?.lastName}</span>
+                            <span>{user?.email}</span>
+                        </div>
+                        {preview && (
+                            <button className={styles.editBtn} onClick={handleUpdate}>Update</button>
+                        )}
                     </div>
-                    <div className={styles.details}>
-                        <span>{user?.firstName + " " + user?.lastName}</span>
-                        <span>{user?.email}</span>
-                    </div>
-                    {preview && (
-                        <button className={styles.editBtn} onClick={handleUpdate}>Update</button>
-                    )}
-                </div>
 
-                {/* Personal Info Card */}
-                <div className={styles.section}>
-                    <div className={styles.profileHeader}>
-                        <h3>Personal Information</h3>
-                        <button className={styles.editBtn} onClick={handleEdit}>✎ Edit</button>
-                    </div>
-                    <div className={styles.profileGrid}>
-                        <div className={styles.infoBlock}>
-                            <label>First Name</label>
-                            {textType === "text" ? (<p>{user?.firstName}</p>) : (
-                                <input value={formData.firstName} name='firstName' type="text" defaultValue={user?.firstName} onChange={handleChange} />
-                            )}
+                    {/* Personal Info Card */}
+                    <div className={styles.section}>
+                        <div className={styles.profileHeader}>
+                            <h3>Personal Information</h3>
+                            <button className={styles.editBtn} onClick={handleEdit}>✎ Edit</button>
                         </div>
-                        <div className={styles.infoBlock}>
-                            <label>Last Name</label>
-                            {textType === "text" ? (<p>{user?.lastName}</p>) : (
-                                <input type="text" name='lastName' value={formData.lastName} defaultValue={user?.lastName} onChange={handleChange} />
-                            )}
-                        </div>
-                        <div className={styles.infoBlock}>
-                            <label>Email</label>
-                            <p>{user?.email}</p>
-                        </div>
-                        <div className={styles.infoBlock}>
-                            <label>Phone</label>
-                            {textType === "text" ? (<p>+91 <span>{user?.phone}</span></p>) : (
-                                <input type="text" name='phone' value={formData.phone} defaultValue={user?.phone} onChange={handleChange} />
-                            )}
-                        </div>
-                        <div className={styles.infoBlock}>
-                            <label>Bio</label>
-                            {textType === "text" ? (<p>{user?.bio || "No bio available"}</p>) : (
-                                <textarea name='bio' value={formData.bio} defaultValue={user?.bio} onChange={handleChange} ></textarea>
-                            )}
-                        </div>
-                    </div>
-                    {textType === "input" && (<button style={{ marginTop: "10px" }} className={styles.editBtn} onClick={handleUpdate}>Update</button>)}
-                </div>
-
-                {/* Enrolled Courses */}
-                <div className={styles.courseSection}>
-                    <h3>Continue Where You Left</h3>
-                    <div className={styles.courseGrid}>
-                        {enrolledCourses.length !== 0 ? enrolledCourses?.map((course, index) => {
-                            const progress = course.completedVideos.length / course.totalVideos;
-                            return (
-                                <div
-                                    className={styles.courseCard}
-                                    key={index}
-                                    style={{ cursor: "pointer" }}
-                                >
-                                    <h4>{course.playListName || "Untitled Playlist"}</h4>
-                                    <progress value={progress} max="1"></progress>
-                                    <span>{Math.round(progress * 100)}% Completed</span>
-                                    <CustomButton text="Continue" onClick={() => navigateToFirstUnwatched(course)} />
-                                </div>
-                            );
-                        }) : (<div
-                            className={styles.courseCard}
-                            style={{ cursor: "pointer" }}
-                        >
-                            <h4>No Ongoing Courses</h4>
-                            <p>Enroll in a course to start learning!</p>
-                            <button className={styles.editBtn} onClick={() => navigate('/lectures')}>Explore Courses</button>
-                        </div>)}
-                    </div>
-                </div>
-
-                {/* Completed Courses */}
-                <div className={styles.courseSection}>
-                    <h3>Completed Courses</h3>
-                    <div className={styles.courseGrid}>
-                        {completedCourses.length !== 0 ? completedCourses?.map((course, index) => (
-                            <div className={styles.courseCard} key={index}>
-                                <h4>{course.playListName}</h4>
-                                <p>Completed on: {new Date(course.completionDate).toLocaleDateString()}</p>
-                                <DownloadCertificateButton handleDownload={() => handleDownload(user?._id, course.playListId)} />
+                        <div className={styles.profileGrid}>
+                            <div className={styles.infoBlock}>
+                                <label>First Name</label>
+                                {textType === "text" ? (<p>{user?.firstName}</p>) : (
+                                    <input value={formData.firstName} name='firstName' type="text" defaultValue={user?.firstName} onChange={handleChange} />
+                                )}
                             </div>
-                        )) : ((<div
-                            className={styles.courseCard}
-                            style={{ cursor: "pointer" }}
-                        >
-                            <h4>No Completed Courses</h4>
-                            <p>Complete a course to get certified!</p>
-                            <button className={styles.editBtn} onClick={() => navigate('/lectures')}>Explore Courses</button>
-                        </div>))}
+                            <div className={styles.infoBlock}>
+                                <label>Last Name</label>
+                                {textType === "text" ? (<p>{user?.lastName}</p>) : (
+                                    <input type="text" name='lastName' value={formData.lastName} defaultValue={user?.lastName} onChange={handleChange} />
+                                )}
+                            </div>
+                            <div className={styles.infoBlock}>
+                                <label>Email</label>
+                                <p>{user?.email}</p>
+                            </div>
+                            <div className={styles.infoBlock}>
+                                <label>Phone</label>
+                                {textType === "text" ? (<p>+91 <span>{user?.phone}</span></p>) : (
+                                    <input type="text" name='phone' value={formData.phone} defaultValue={user?.phone} onChange={handleChange} />
+                                )}
+                            </div>
+                            <div className={styles.infoBlock}>
+                                <label>Bio</label>
+                                {textType === "text" ? (<p>{user?.bio || "No bio available"}</p>) : (
+                                    <textarea name='bio' value={formData.bio} defaultValue={user?.bio} onChange={handleChange} ></textarea>
+                                )}
+                            </div>
+                        </div>
+                        {textType === "input" && (<button style={{ marginTop: "10px" }} className={styles.editBtn} onClick={handleUpdate}>Update</button>)}
+                    </div>
+
+                    {/* Enrolled Courses */}
+                    <div className={styles.courseSection}>
+                        <h3>Continue Where You Left</h3>
+                        <div className={styles.courseGrid}>
+                            {enrolledCourses.length !== 0 ? enrolledCourses?.map((course, index) => {
+                                const progress = course.completedVideos.length / course.totalVideos;
+                                return (
+                                    <div
+                                        className={styles.courseCard}
+                                        key={index}
+                                        style={{ cursor: "pointer" }}
+                                    >
+                                        <h4>{course.playListName || "Untitled Playlist"}</h4>
+                                        <progress value={progress} max="1"></progress>
+                                        <span>{Math.round(progress * 100)}% Completed</span>
+                                        <CustomButton text="Continue" onClick={() => navigateToFirstUnwatched(course)} />
+                                    </div>
+                                );
+                            }) : (<div
+                                className={styles.courseCard}
+                                style={{ cursor: "pointer" }}
+                            >
+                                <h4>No Ongoing Courses</h4>
+                                <p>Enroll in a course to start learning!</p>
+                                <button className={styles.editBtn} onClick={() => navigate('/lectures')}>Explore Courses</button>
+                            </div>)}
+                        </div>
+                    </div>
+
+                    {/* Completed Courses */}
+                    <div className={styles.courseSection}>
+                        <h3>Completed Courses</h3>
+                        <div className={styles.courseGrid}>
+                            {completedCourses.length !== 0 ? completedCourses?.map((course, index) => (
+                                <div className={styles.courseCard} key={index}>
+                                    <h4>{course.playListName}</h4>
+                                    <p>Completed on: {new Date(course.completionDate).toLocaleDateString()}</p>
+                                    <DownloadCertificateButton handleDownload={() => handleDownload(user?._id, course.playListId)} />
+                                </div>
+                            )) : ((<div
+                                className={styles.courseCard}
+                                style={{ cursor: "pointer" }}
+                            >
+                                <h4>No Completed Courses</h4>
+                                <p>Complete a course to get certified!</p>
+                                <button className={styles.editBtn} onClick={() => navigate('/lectures')}>Explore Courses</button>
+                            </div>))}
+                        </div>
                     </div>
                 </div>
+                <Footer />
             </div>
         </div>
     );

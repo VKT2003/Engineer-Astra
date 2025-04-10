@@ -60,7 +60,7 @@ const AuthProvider = ({ children }) => {
         const fetchCourses = async () => {
             try {
                 const response = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/courses/getCourses/${userId}`);
-                if (response.data) {
+                if (response.status === 200) {
                     setCourses(response.data);
                 }
             } catch (error) {

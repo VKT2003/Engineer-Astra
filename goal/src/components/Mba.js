@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styles from '../styles/TopColleges.module.css';
 import Navbar from './Navbar';
 import collegeData from './MbaColleges.json'; // Avoid naming conflict
+import Footer from './Footer';
 
 
 const Mba = () => {
@@ -66,6 +67,7 @@ const Mba = () => {
                         <p>Loading...</p>
                     )}
                 </div>
+                <Footer />
             </div>
         </div>
     );

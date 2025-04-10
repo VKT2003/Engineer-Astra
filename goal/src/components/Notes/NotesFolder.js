@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Navbar from '../Navbar';
 import styles from '../../styles/NotesFolder.module.css';
 import { Link, useParams } from 'react-router-dom';
+import Footer from '../Footer';
 
 const NotesFolder = () => {
     const API_KEY = 'AIzaSyCkQaNvo5XmUZ-XxVTY5OMMjUNLMjl2DI0';
@@ -51,12 +52,13 @@ const NotesFolder = () => {
                     {folders.map((folder) => (
                         <div key={folder.id} className={`${styles.folder}`}>
                             <Link to={`/notes/${folderId}/${folder.id}`} rel="noopener noreferrer">
-                                <img src="/folder.png" alt="folder" />
+                                <img src="/folder.png" alt="folder" loading='lazy' />
                                 <p>{folder.name.slice(0,16)}{folder.name.length > 15 && '...'}</p>
                             </Link>
                         </div>
                     ))}
                 </div>
+                <Footer />
             </div>
         </div>
     );

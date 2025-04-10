@@ -12,9 +12,9 @@
     right: 8px;
     left: 295px;
     overflow: auto;
+    z-index: 1;
     background-color: #212529; /* Your dark background */
     border-radius: 10px;
-    padding: 40px; /* Added padding for content */
     color: #f8f9fa; /* Light text color for dark background */
     line-height: 1.6;
   }
@@ -27,12 +27,14 @@
     margin-bottom: 20px;
     border-bottom: 2px solid #0073e6; /* Blue underline */
     padding-bottom: 10px;
+    margin: 10px;
   }
   
   /* Subheading for features */
   .content h2 {
     font-size: 1.8rem;
     color: #0073e6; /* Blue subheading */
+    margin: 10px;
     margin-top: 30px;
     margin-bottom: 20px;
   }
@@ -41,6 +43,7 @@
   .content p {
     font-size: 1.1rem;
     color: #f8f9fa; /* Light text color */
+    margin: 10px;
     margin-bottom: 20px;
   }
   

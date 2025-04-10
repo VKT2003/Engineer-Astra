@@ -10,6 +10,7 @@ import excelIcon from '../../assets/xls.png'; // Update with the path to your Ex
 import fileIcon from '../../assets/file.png';
 import photoIcon from '../../assets/photo.png';
 import docIcon from '../../assets/doc.png';
+import Footer from '../Footer';
 
 const API_KEY = 'AIzaSyCkQaNvo5XmUZ-XxVTY5OMMjUNLMjl2DI0';
 
@@ -78,12 +79,14 @@ const Notes = () => {
                   src={getFileIcon(file.name)} 
                   style={{ opacity: '0.8' }} 
                   alt="file icon" 
+                  loading='lazy'
                 />
                 <p>{file.name.slice(0, 16)}{file.name.length > 15 && '...'}</p>
               </Link>
             </div>
           ))}
         </div>
+        <Footer />
       </div>
     </div>
   );

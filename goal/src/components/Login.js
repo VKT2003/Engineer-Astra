@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import axios from 'axios';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from './Footer';
 
 const Login = () => {
     const [email, setEmail] = useState('');
@@ -58,6 +59,7 @@ const Login = () => {
                         Don't have an account? <Link to = '/register'>Sign Up</Link>
                     </p>
                 </div>
+                <Footer />
             </div>
             <ToastContainer />
         </div>

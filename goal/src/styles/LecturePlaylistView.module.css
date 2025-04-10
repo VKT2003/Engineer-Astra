@@ -8,6 +8,7 @@
     top: 86px;
     bottom: 8px;
     right: 8px;
+    z-index: 1;
     left: 295px;
     overflow: hidden;
     background-color: #212529;

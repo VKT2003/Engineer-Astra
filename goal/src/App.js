@@ -14,7 +14,6 @@ import LectureCategory from './components/Lectures/LectureCategory';
 import LecturePlaylist from './components/Lectures/LecturePlaylist';
 import Lectures from './components/Lectures/Lectures';
 import LectureVideos from './components/Lectures/LectureVideos';
-import GoogleDriveFiles from './components/Lectures/GoogleDriveFiles';
 import NotesFolder from './components/Notes/NotesFolder';
 import Notes from './components/Notes/Notes';
 import LecturePlaylistView from './components/Lectures/LecturePlalistView';
@@ -54,7 +53,6 @@ const App = () => {
             <Route path="/lectures/:category/:playlist/:playlistId/:videoId" element={<LectureVideos />} />
             <Route path="/notes/:folderId" element={<NotesFolder />} />
             <Route path="/notes/:folderId/:notesFolderId" element={<Notes />} />
-            <Route path="/drive" element={<GoogleDriveFiles />} />
             <Route path="/topcolleges" element={<TopColleges />} />
             <Route path="helpdesk" element={<HelpDesk />} />
             <Route path="login" element={<Login />} />

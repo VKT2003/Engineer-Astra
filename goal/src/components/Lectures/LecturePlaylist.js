@@ -5,6 +5,7 @@ import { Link, useParams } from 'react-router-dom';
 import Playlist from '../Lectures/LecturePlaylist.json';
 import { AuthContext } from '../../context/AuthProvider';
 import DownloadCertificateButton from '../DownloadCertificateButton';
+import Footer from '../Footer';
 
 const LecturePlaylist = () => {
   const { category, playlist } = useParams();
@@ -58,7 +59,7 @@ const LecturePlaylist = () => {
               return (
                 <div key={index} className={styles.card}>
                   <div className={styles.cardImage}>
-                    <img src={playlists.imgUrl} alt={playlists.name} />
+                    <img src={playlists.imgUrl} alt={playlists.name} loading='lazy' />
                     <p><i className="fa-solid fa-list"></i> {playlists.videoCount} Videos</p>
                     <Link to={`/lectures/${category}/${playlist}/${playlists.playlistId}/${playlists.firstVideoId}`} className={styles.hovered}>
                       <i className="fa-solid fa-play"></i>
@@ -89,6 +90,7 @@ const LecturePlaylist = () => {
             <p>No courses available for this category.</p>
           )}
         </div>
+        <Footer />
       </div>
     </div>
   );

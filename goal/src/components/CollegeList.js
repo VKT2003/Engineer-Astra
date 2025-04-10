@@ -38,7 +38,7 @@ const CollegeList = () => {
         <div className={`${styles.main}`}>
             <Navbar />
             <div className={`${styles.content}`}>
-                <img src="https://images.collegedunia.com/public/asset/img/homepage/banner/Indian1642232499.webp?mode=stretch" alt="none" />
+                <img src="https://images.collegedunia.com/public/asset/img/homepage/banner/Indian1642232499.webp?mode=stretch" loading='lazy' alt="none" />
                 <div className={`${styles.contentChild}`}>
                     <h1>College List</h1>
                     <label>Filter by: </label>

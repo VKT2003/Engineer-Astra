@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../styles/Mtech.module.css'
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 const Mtech = () => {
   return (
@@ -14,6 +15,7 @@ const Mtech = () => {
         title="example-iframe"
       ></iframe>
     </div>
+    <Footer />
     </div>
 
    </div>

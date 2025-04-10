@@ -7,6 +7,7 @@ import YouTube from 'react-youtube';
 import axios from 'axios';
 import { AuthContext } from '../../context/AuthProvider';
 import FloatingButton from '../FloatingButton';
+import Footer from '../Footer';
 
 const LectureVideos = () => {
   const { category, playlist, playlistId, videoId } = useParams();
@@ -138,7 +139,7 @@ const LectureVideos = () => {
                       {/* Extract the video ID and use it for the YouTube thumbnail image */}
                       <img
                         src={`https://i.ytimg.com/vi/${extractVideoId(playlists.url)}/hqdefault.jpg`}
-                        alt={playlists.name}
+                        alt={playlists.name} loading='lazy'
                       />
                     </div>
                     <div className={`${styles.cardContent}`}>
@@ -161,6 +162,7 @@ const LectureVideos = () => {
             <FloatingButton handleDownload={handleDownload} />
           )}
         </div>
+        <Footer />
       </div>
     </div>
   );

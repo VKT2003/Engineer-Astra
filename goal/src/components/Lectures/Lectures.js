@@ -3,6 +3,7 @@ import styles from '../../styles/Lectures.module.css';
 import Navbar from '../Navbar';
 import { Link } from 'react-router-dom';
 import lectureCategory from './category.json';
+import Footer from '../Footer';
 
 const Lectures = () => {
     const [categories, setCategories] = useState([]);
@@ -20,7 +21,7 @@ const Lectures = () => {
                 <div className={styles.cardsContainer}>
                     {categories.map(category => (
                         <div key={category.id} className={styles.card}>
-                            <img src={category.imageUrl} alt={category.categoryName} className={styles.cardImage} />
+                            <img src={category.imageUrl} alt={category.categoryName} className={styles.cardImage} loading='lazy' />
                             <div className={`${styles.cardContent}`}>
                                 <h3>{category.categoryName}</h3>
                                 <p>{category.description}</p>
@@ -37,6 +38,7 @@ const Lectures = () => {
                         </div>
                     ))}
                 </div>
+                <Footer />
             </div>
         </div>
     );

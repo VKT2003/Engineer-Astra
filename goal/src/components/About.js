@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../styles/About.module.css';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 const About = () => {
   return (
@@ -26,6 +27,7 @@ const About = () => {
           This platform is designed to simplify the college admission process and help you excel in your academic journey.
         </p>
         <p className={styles.creator}>Created by <strong>Vishal Tiwari & Vikas Jadon</strong>, B.Tech CSE (AI & ML).</p>
+        <Footer />
       </div>
     </div>
   );

@@ -46,7 +46,7 @@ const Navbar = () => {
             </div>
             {isLogged ? (
                 <div className={`${styles.userProfile}`}>
-                    {user?.profileImg ? <img src={user?.profileImg} className={`${styles.profileImage}`} alt="Profile"/> : <div className={`${styles.profileImg}`}>{user?.firstName[0].toUpperCase()}</div>}
+                    {user?.profileImg ? <img src={user?.profileImg} className={`${styles.profileImage}`} alt="Profile" loading='lazy'/> : <div className={`${styles.profileImg}`}>{user?.firstName[0].toUpperCase()}</div>}
                     <div className={`${styles.profileDropdown}`}>
                         <li><Link to="/profile">Profile</Link></li>
                         <li onClick={logout}><span>Logout</span></li>

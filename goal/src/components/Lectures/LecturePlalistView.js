@@ -4,6 +4,7 @@ import Navbar from '../Navbar';
 import { Link, useParams } from 'react-router-dom';
 import Playlistdata from '../Lectures/CSEPlalistData/data.json';
 import Playlist from '../Lectures/LecturePlaylist.json';
+import Footer from '../Footer';
 
 const LecturePlaylistView = () => {
   const { category, playlist, playlistId, videoId } = useParams();
@@ -54,12 +55,13 @@ const LecturePlaylistView = () => {
         <div className={styles.cardsContainer}>
           <div className={`${styles.youtube}`} >
             <div className={`${styles.imgContainer}`}>
-              <img src={selectedPlaylistData.imgUrl} alt={selectedPlaylistData.name} />
+              <img src={selectedPlaylistData.imgUrl} alt={selectedPlaylistData.name} loading='laz
+              ' />
             </div>
             <div className={`${styles.card_container}`}>
               <div className={`${styles.imgSection}`}>
                 <div className={`${styles.card}`}>
-                  <img src={selectedPlaylistData.imgUrl} alt='' />
+                  <img src={selectedPlaylistData.imgUrl} alt='' loading='lazy' />
                   <Link to={`/lectures/${category}/${playlist}/${selectedPlaylistData.playlistId}/${selectedPlaylistData.firstVideoId}`} className={`${styles.hovered}`}>
                     <i class="fa-solid fa-play"></i>
                     <li>Play All</li>
@@ -104,6 +106,7 @@ const LecturePlaylistView = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     </div>
   );

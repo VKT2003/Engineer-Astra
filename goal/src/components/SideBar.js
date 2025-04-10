@@ -14,7 +14,7 @@ const SideBar = () => {
 
   return (
     <div className={`${styles.sidebar} ${openHam ? styles.closeSidebar : styles.openSidebar}`}>
-      <Link to={"/"}><img className={styles.logo} src="\logo.png" alt="profile" /></Link>
+      <Link to={"/"}><img className={styles.logo} src="\logo.png" alt="profile" loading='lazy' /></Link>
       <div className={`${styles.services}`}>
         <div className={`${styles.sep}`}></div>
         <h1>Services</h1>

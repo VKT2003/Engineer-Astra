@@ -9,47 +9,56 @@ const url = process.env.BACKEND_URL;
 
 exports.register = async (req, res) => {
     try {
-        const { firstName, lastName, email, phone, password } = req.body;
-        if (!firstName || !email || !password || !lastName || !phone) {
-            return res.status(400).json({ message: 'Please enter all fields' });
-        }
-
-        if (!req.file) {
-            return res.status(400).json({ error: "No file uploaded!" });
-        }
-
-        const fileUrl = `${url}/api/auth/file/${req.file.filename}`;
-
-        if (password.length < 6) {
-            return res.status(400).json({ message: 'Password must be at least 6 characters long' });
-        }
-        const existingUser = await User.findOne({ email });
-        if (existingUser) {
-            return res.status(400).json({ message: 'An account with this email already exists' });
-        }
-        const salt = await bcrypt.genSalt();
-        const passwordHash = await bcrypt.hash(password, salt);
-        const newUser = new User({
-            firstName,
-            lastName,
-            phone,
-            profileImg: fileUrl,
-            email,
-            password: passwordHash,
-        });
-
-        const savedUser = await newUser.save();
-        const payload = {
-            user: {
-                id: savedUser.id
-            }
-        };
-        const token = jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: 3600 });
-        res.status(200).json({ token, message : "User registered successfully"});
+      const { firstName, lastName, email, phone, password } = req.body;
+  
+      if (!firstName || !email || !password || !lastName || !phone) {
+        return res.status(400).json({ message: 'Please enter all fields' });
+      }
+  
+      // Optional profile image upload
+      let fileUrl = '';
+      if (req.file) {
+        fileUrl = `${url}/api/auth/file/${req.file.filename}`;
+      }
+  
+      if (password.length < 6) {
+        return res.status(400).json({ message: 'Password must be at least 6 characters long' });
+      }
+  
+      const existingUser = await User.findOne({ email });
+      if (existingUser) {
+        return res.status(400).json({ message: 'An account with this email already exists' });
+      }
+  
+      const salt = await bcrypt.genSalt();
+      const passwordHash = await bcrypt.hash(password, salt);
+  
+      const newUser = new User({
+        firstName,
+        lastName,
+        phone,
+        profileImg: fileUrl || '', // Empty string if no file uploaded
+        email,
+        password: passwordHash,
+      });
+  
+      const savedUser = await newUser.save();
+  
+      const payload = {
+        user: {
+          id: savedUser.id,
+        },
+      };
+  
+      const token = jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: 3600 });
+  
+      res.status(201).json({ token, message: 'User registered successfully' });
+  
     } catch (err) {
-        res.status(500).json({ message: err.message });
+      res.status(500).json({ message: err.message });
     }
-}
+  };
+  
 
 exports.login = async (req, res) => {
     try {
@@ -85,7 +94,7 @@ exports.getUserById = async (req, res) => {
         if (!user) {
             return res.status(404).json({ message: 'User not found' });
         }
-        res.json(user);
+        res.status(200).json(user);
     } catch (err) {
         res.status(500).json({ message: err.message });
     }

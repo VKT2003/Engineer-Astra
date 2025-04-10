@@ -3,6 +3,7 @@ import styles from '../styles/Helpdesk.module.css';
 import { HfInference } from '@huggingface/inference';
 import Navbar from './Navbar';
 import { marked } from 'marked';
+import Footer from './Footer';
 
 const Helpdesk = () => {
     const [query, setQuery] = useState('');
@@ -68,7 +69,7 @@ const Helpdesk = () => {
                     )}
                     {conversation.map((chat, index) => (
                         <div className={`${styles.chat}`} ref={scrollRef}>
-                            <img src={`${chat.sender === 'student' ? '/student.png' : '/robot.png'}`} alt="none" className={`${chat.sender === 'student' ? styles.imgStd : styles.imgBot}`} />
+                            <img loading='lazy' src={`${chat.sender === 'student' ? '/student.png' : '/robot.png'}`} alt="none" className={`${chat.sender === 'student' ? styles.imgStd : styles.imgBot}`} />
                             <div
                                 key={index}
                                 className={`${styles.message} ${chat.sender === 'student' ? styles.student : styles.bot}`}
@@ -96,6 +97,7 @@ const Helpdesk = () => {
                         Send
                     </button>
                 </form>
+                <Footer />
             </div>
         </div>
     );

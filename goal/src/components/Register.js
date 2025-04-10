@@ -6,13 +6,9 @@ import Navbar from './Navbar'
 import axios from 'axios'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from './Footer'
 
 const Register = () => {
-    const [email, setEmail] = useState('')
-    const [password, setPassword] = useState('')
-    const [name, setName] = useState('')
-    const [profileImg, setProfileImg] = useState('')
-    const [phone, setPhone] = useState('')
     const [preview, setPreview] = useState(null);
     
     const [formData, setFormData] = useState({
@@ -56,6 +52,10 @@ const Register = () => {
                     'Content-Type': 'multipart/form-data',
                 },
             });
+            if(response.status !== 201) {
+                toast.error("Something went wrong")
+                return
+            }
             localStorage.setItem('token', response.data.token);
             toast.success(response.data.message);
             setTimeout(() => {
@@ -81,9 +81,9 @@ const Register = () => {
                             <input type="file" id="file" name="file" onChange={handleChange} />
                             <label htmlFor="file">
                                 {preview ? (
-                                    <img src={preview} alt="Profile Preview" style={{ width: "100px", height: "100px", borderRadius: "50%" }} />
+                                    <img src={preview} alt="Profile Preview" style={{ width: "100px", height: "100px", borderRadius: "50%" }} loading='lazy' />
                                 ) : (
-                                    <img src="/add-image.webp" alt="add" />
+                                    <img src="/add-image.webp" alt="add" loading='lazy' />
                                 )}
                             </label>
                             <p>Profile Picture</p>
@@ -135,6 +135,7 @@ const Register = () => {
                         Already have an account? <Link to='/login'>Sign In</Link>
                     </p>
                 </div>
+                <Footer />
             </div>
             <ToastContainer />
         </div>
