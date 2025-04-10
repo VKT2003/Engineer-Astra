@@ -114,7 +114,7 @@ const Profile = () => {
     };
 
     useEffect(() => {
-        if (courses) {
+        if (courses && courses.length > 0) {
             const enrolled = courses.filter(course => !course.isCompleted);
             const completed = courses.filter(course => course.isCompleted);
             setEnrolledCourses(enrolled);
