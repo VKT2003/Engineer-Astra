@@ -264,5 +264,9 @@
         width: 70px;
         height: 70px;
     }
+
+    .header hr{
+        width: 60%;
+    }
     
 }
