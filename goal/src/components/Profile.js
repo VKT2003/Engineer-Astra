@@ -71,7 +71,7 @@ const Profile = () => {
 
 
     const handleDownload = (userId, playlistId) => {
-        window.open(`http://localhost:3001/?userId=${userId}&playListId=${playlistId}`, '_blank');
+        window.open(`${process.env.REACT_APP_CERTIFICATE_URL}/?userId=${userId}&playListId=${playlistId}`, '_blank');
     };
 
     const extractVideoId = (url) => {
