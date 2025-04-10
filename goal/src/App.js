@@ -22,7 +22,6 @@ import TopColleges from './components/TopColleges';
 import HelpDesk from './components/HelpDesk';
 import Login from './components/Login';
 import Register from './components/Register';
-import AuthProvider from './context/AuthProvider';
 import Profile from './components/Profile';
 import VerifyCertificate from './components/VerifyCertificate';
 
@@ -39,7 +38,6 @@ const App = () => {
 
   return (
     <MenuContext.Provider value={{ openHam, toggleMenu, setOpenHam }}>
-        <AuthProvider>
           <SideBar />
           <Routes>
             <Route path="/" element={<Home />} />
@@ -65,7 +63,6 @@ const App = () => {
             <Route path="verify" element={<VerifyCertificate />} />
           </Routes>
           <BottomNav />
-        </AuthProvider>
     </MenuContext.Provider>
   );
 };
