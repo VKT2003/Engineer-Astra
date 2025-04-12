@@ -153,9 +153,11 @@ exports.addCertificateToUser = async (req, res) => {
 
 exports.verifyCertificate = async (req, res) => {
     const { certificateId } = req.body;
+    console.log(certificateId)
 
     try {
         const user = await User.findOne({ "certificates.certificateId": certificateId });
+        console.log(user)
         if (!user) return res.status(404).json({ message: "Certificate not found" });
 
         res.status(200).json({ message: "Certificate verified", userData: user });
