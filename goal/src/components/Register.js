@@ -10,7 +10,7 @@ import Footer from './Footer'
 
 const Register = () => {
     const [preview, setPreview] = useState(null);
-    
+
     const [formData, setFormData] = useState({
         firstName: '',
         lastName: '',
@@ -52,20 +52,16 @@ const Register = () => {
                     'Content-Type': 'multipart/form-data',
                 },
             });
-            if(response.status !== 201) {
-                toast.error("Something went wrong")
-                return
+            console.log(response, response.status)
+            if (response.status === 201) {
+                localStorage.setItem('token', response.data.token);
+                toast.success(response.data.message);
+                setTimeout(() => {
+                    navigate('/');
+                }, 2000);
             }
-            localStorage.setItem('token', response.data.token);
-            toast.success(response.data.message);
-            setTimeout(() => {
-                navigate('/');
-            }, 2000);
         } catch (error) {
             toast.error(error.response.data.message)
-            setTimeout(() => {
-                navigate('/');
-            }, 2000);
         }
     };
 
